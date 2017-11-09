@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\christian\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_unitystation_tilemap.1523220213.00" t="ExcludeRecursive" />
+    <e p="E:\MatrixOH\unitystation_tilemap" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Editor" t="Include">
+            <e p="ImportSprites.cs" t="Include" />
+          </e>
+          <e p="World" t="Include">
+            <e p="Behaviours" t="Include">
+              <e p="RegisterTile.cs" t="Include" />
+            </e>
+            <e p="Matrix.cs" t="Include" />
+            <e p="MatrixNode.cs" t="Include" />
+            <e p="Section.cs" t="Include" />
+            <e p="SectionData.cs" t="Include" />
+            <e p="Utils" t="Include">
+              <e p="SerializableDictionary.cs" t="Include" />
+              <e p="TileTypes.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tilemaps" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Brushes" t="Include">
+              <e p="LevelBrush.cs" t="Include" />
+              <e p="LevelBrushEditor.cs" t="Include" />
+            </e>
+            <e p="CreateTilesMenu.cs" t="Include" />
+            <e p="MatrixCheckEditor.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Behaviours" t="Include">
+              <e p="Layers" t="Include">
+                <e p="Layer.cs" t="Include" />
+                <e p="MetaTileMap.cs" t="Include" />
+                <e p="ObjectLayer.cs" t="Include" />
+              </e>
+              <e p="Objects" t="Include">
+                <e p="RegisterCloset.cs" t="Include" />
+                <e p="RegisterDoor.cs" t="Include" />
+                <e p="RegisterItem.cs" t="Include" />
+                <e p="RegisterObject.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Tiles" t="Include">
+              <e p="BasicTile.cs" t="Include" />
+              <e p="ConnectedTile.cs" t="Include" />
+              <e p="GenericTile.cs" t="Include" />
+              <e p="ItemTile.cs" t="Include" />
+              <e p="LayerTile.cs" t="Include" />
+              <e p="MetaTile.cs" t="Include" />
+              <e p="ObjectTile.cs" t="Include" />
+              <e p="SimpleTile.cs" t="Include" />
+            </e>
+            <e p="Utils" t="Include">
+              <e p="ItemList.cs" t="Include" />
+              <e p="ObjectList.cs" t="Include" />
+              <e p="PreviewSpriteBuilder.cs" t="Include" />
+              <e p="RendererComparer.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="unitystation_tilemap.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
