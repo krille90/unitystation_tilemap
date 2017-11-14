@@ -55,5 +55,15 @@ namespace Tilemaps.Scripts.Behaviours.Layers
             var tile = tilemap.GetTile<LayerTile>(position);
             return !tile || tile.IsSpaceAt(position, tilemap);
         }
+
+        public void SetPreviewTile(Vector3Int position, LayerTile tile)
+        {
+            tilemap.SetEditorPreviewTile(position, tile);
+        }
+
+        public void ClearPreview()
+        {
+            tilemap.ClearAllEditorPreviewTiles();
+        }
     }
 }

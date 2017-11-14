@@ -12,11 +12,6 @@ MonoBehaviour:
   m_Name: WinDoor
   m_EditorClassIdentifier: 
   LayerType: 1
-  RemoveWall: 1
-  RemoveFloor: 0
-  Passable: 0
-  AtmosPassable: 0
-  IsSpace: 1
   RequiredTiles:
-  - {fileID: 11400000, guid: 4a379f8f84b037e449691160a0c96674, type: 2}
+  - {fileID: 11400000, guid: 83855008e43a2674d8d6a006ce94326f, type: 2}
   Object: {fileID: 1038946861857688, guid: 10a6dde0722be994c89b157ad068f369, type: 2}

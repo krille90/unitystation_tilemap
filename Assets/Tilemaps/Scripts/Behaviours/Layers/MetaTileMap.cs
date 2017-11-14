@@ -65,6 +65,19 @@ namespace Tilemaps.Scripts.Behaviours.Layers
             layers[tile.LayerType].SetTile(position, tile);
         }
 
+        public void SetPreviewTile(Vector3Int position, LayerTile tile)
+        {
+            layers[tile.LayerType].SetPreviewTile(position, tile);
+        }
+
+        public void ClearPreview()
+        {
+            foreach (var layer in layers.Values)
+            {
+                layer.ClearPreview();
+            }
+        }
+
         public void RemoveTile(Vector3Int position, LayerType refLayer)
         {
             foreach (var layer in layers.Values)

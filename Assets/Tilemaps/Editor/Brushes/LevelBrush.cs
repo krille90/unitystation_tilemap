@@ -64,6 +64,16 @@ namespace Tilemaps.Editor.Brushes
             }
         }
 
+        public override void Rotate(RotationDirection direction, GridLayout.CellLayout layout)
+        {
+            if (Event.current.character == '<')
+            {
+                Debug.Log("rotate");
+            }
+            
+            base.Rotate(direction, layout);
+        }
+
         private static void PlaceMetaTile(MetaTileMap metaTileMap, Vector3Int position, MetaTile metaTile)
         {
             foreach (var tile in metaTile.GetTiles())

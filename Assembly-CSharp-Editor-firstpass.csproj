@@ -124,9 +124,6 @@
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
       <HintPath>E:/Program Files/Unity2017/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="System.Numerics">
-      <HintPath>E:/MatrixOH/unitystation_tilemap/Assets/Libs/System.Numerics.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/christian/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>

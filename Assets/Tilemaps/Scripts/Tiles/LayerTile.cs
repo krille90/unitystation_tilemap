@@ -13,11 +13,17 @@ namespace Tilemaps.Scripts.Tiles
         Base,
         None
     }
-    
+
     public abstract class LayerTile : GenericTile
     {
-        public LayerType LayerType;
-        
+        public LayerType layerType;
+
+        public virtual LayerType LayerType
+        {
+            get { return layerType; }
+            set { layerType = value; }
+        }
+
         public LayerTile[] RequiredTiles;
 
         public abstract bool IsPassableAt(Vector3Int from, Vector3Int to, Tilemap tilemap);

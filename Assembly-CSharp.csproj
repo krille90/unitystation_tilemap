@@ -104,9 +104,6 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>E:/Program Files/Unity2017/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="System.Numerics">
-      <HintPath>E:/MatrixOH/unitystation_tilemap/Assets/Libs/System.Numerics.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/christian/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
     </Reference>
