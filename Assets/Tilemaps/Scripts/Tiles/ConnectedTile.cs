@@ -5,23 +5,24 @@ using UnityEngine.Tilemaps;
 
 namespace Tilemaps.Scripts.Tiles
 {
+    public enum ConnectCategory
+    {
+        Walls,
+        Windows,
+        Tables,
+        Floors,
+        None
+    }
+
+    public enum ConnectType
+    {
+        ToAll,
+        ToSameCategory,
+        ToSelf
+    }
+    
     public class ConnectedTile : BasicTile
     {
-        public enum ConnectCategory
-        {
-            Walls,
-            Windows,
-            Tables,
-            Floors,
-            None
-        }
-
-        public enum ConnectType
-        {
-            ToAll,
-            ToSameCategory,
-            ToSelf
-        }
         
         public Texture2D spriteSheet;
         public string texturePath;

@@ -1,86 +1,90 @@
-﻿using System;
-using Tilemaps.Scripts.Behaviours.Layers;
+﻿﻿using System;
 using Tilemaps.Scripts.Behaviours.Objects;
 using Tilemaps.Scripts.Utils;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using World;
 
 namespace Tilemaps.Scripts.Tiles
 {
     [Serializable]
-    public class ObjectTile: LayerTile
+    public class ObjectTile : LayerTile
     {
         public GameObject Object;
+        public bool Rotatable;
+        public bool KeepOrientation;
+        public bool Offset;
+        public bool IsItem { get; private set; }
 
         private GameObject _objectCurrent;
 
-        public override bool StartUp(Vector3Int position, ITilemap tilemap, GameObject go)
-        {
-            if (go)
-            {
-                go.hideFlags = HideFlags.None;
-                go.transform.position += new Vector3(0.5f, 0.5f, 0);
-                go.name = Object.name;
-            }
-
-            return base.StartUp(position, tilemap, go);
-        }
-
-        public override void GetTileData(Vector3Int position, ITilemap tilemap, ref TileData tileData)
-        {
-            if (tilemap.GetComponent<Tilemap>().name == "Layer1")
-            {
-                base.GetTileData(position, tilemap, ref tileData);
-                return;
-            }
-
-            tileData.sprite = null;
-            tileData.gameObject = Object;
-            tileData.flags = TileFlags.LockAll;
-            tileData.colliderType = Tile.ColliderType.None;
-        }
-
         private void OnValidate()
         {
-            if (Object != null && Object != _objectCurrent)
+            if (Object != null)
             {
-                EditorApplication.delayCall+=()=>
+                if (_objectCurrent == null)
                 {
-                    PreviewSprite = PreviewSpriteBuilding.Create(Object);
-                };
+                    // if sprite already exists (e.g. at startup), then load it, otherwise create a new one
+                    EditorApplication.delayCall += () => { PreviewSprite = PreviewSpriteBuilder.LoadSprite(Object) ?? PreviewSpriteBuilder.Create(Object); };
+                }
+                else if (Object != _objectCurrent)
+                {
+                    // from one object -> other (overwrite current sprite)
+                    EditorApplication.delayCall += () => { PreviewSprite = PreviewSpriteBuilder.Create(Object); };
+                }
             }
+            else if (_objectCurrent != null)
+            {
+                // setting to None object (delete current sprite)
+                var obj = _objectCurrent;
+                EditorApplication.delayCall += () => { PreviewSpriteBuilder.DeleteSprite(obj); };
+            }
+
             _objectCurrent = Object;
-        }
-        
-        public override bool IsPassableAt(Vector3Int from, Vector3Int to, Tilemap tilemap)
-        {
-            var obj = GetObjectAt(to, tilemap);
-            return  obj.IsPassable(from);
-        }
-        
-        public override bool IsPassableAt(Vector3Int position, Tilemap tilemap)
-        {
-            var obj = GetObjectAt(position, tilemap);
-            return  obj.IsPassable();
+
+            if (_objectCurrent != null)
+            {
+                IsItem = _objectCurrent.GetComponentInChildren<RegisterItem>() != null;
+            }
         }
 
-        public override bool IsAtmosPassableAt(Vector3Int position, Tilemap tilemap)
+        public void SpawnObject(Vector3Int position, Tilemap tilemap, Matrix4x4 transformMatrix)
         {
-            var obj = GetObjectAt(position, tilemap);
-            return  obj.IsAtmosPassable();
+            if (!Object)
+                return;
+
+            var go = Instantiate(Object);
+            go.SetActive(false);
+            go.transform.parent = tilemap.transform;
+
+            var offset = new Vector3(transformMatrix.m03, transformMatrix.m13, transformMatrix.m23);
+            
+            go.transform.localPosition = position + new Vector3(0.5f, 0.5f, 0) + offset;
+            go.transform.rotation = tilemap.transform.rotation * transformMatrix.rotation;
+
+            go.name = Object.name;
+            go.SetActive(true);
         }
 
-        public override bool IsSpaceAt(Vector3Int position, Tilemap tilemap)
+        public override Matrix4x4 Rotate(Matrix4x4 transformMatrix, bool clockwise)
         {
-            return true;
-        }
+            if (Rotatable)
+            {
+                var rotation = Quaternion.Euler(0f, 0f, clockwise ? 90f : -90f);
 
-        private static RegisterObject GetObjectAt(Vector3Int position, Tilemap tilemap)
-        {
-            var objectList = tilemap.GetComponent<ObjectLayer>().Objects;
+                var newRotation = KeepOrientation ? Quaternion.identity : transformMatrix.rotation * rotation;
+                var newTranslation = !Offset ? Vector3.zero : rotation * transformMatrix.GetColumn(3);
 
-            return objectList?[position];
+                if (Offset && Math.Abs(newTranslation.magnitude) < 0.1)
+                {
+                    newTranslation = Vector3.up;
+                    newRotation = Quaternion.identity;
+                }
+
+                return Matrix4x4.TRS(newTranslation, newRotation, Vector3.one);
+            }
+            return base.Rotate(transformMatrix, clockwise);
         }
     }
 }

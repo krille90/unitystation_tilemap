@@ -11,7 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f6d9c91341f45b9b64b432bc7100ddc, type: 3}
   m_Name: WinDoor
   m_EditorClassIdentifier: 
-  LayerType: 1
+  layerType: 1
   RequiredTiles:
   - {fileID: 11400000, guid: 83855008e43a2674d8d6a006ce94326f, type: 2}
   Object: {fileID: 1038946861857688, guid: 10a6dde0722be994c89b157ad068f369, type: 2}
+  Rotatable: 1
+  KeepOrientation: 0
+  Offset: 0

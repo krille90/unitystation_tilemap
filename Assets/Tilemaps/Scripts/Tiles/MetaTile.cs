@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using Tilemaps.Scripts.Utils;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using World.Utils;
@@ -11,8 +13,11 @@ namespace Tilemaps.Scripts.Tiles
         public LayerTile Object;
         public LayerTile Floor;
         public LayerTile Base;
-        
-        public override Sprite PreviewSprite => Structure.PreviewSprite; //  TODO make proper preview sprite
+
+        private LayerTile _structureCurrent;
+        private LayerTile _objectCurrent;
+        private LayerTile _floorCurrent;
+        private LayerTile _baseCurrent;
 
         private void OnValidate()
         {
@@ -20,6 +25,31 @@ namespace Tilemaps.Scripts.Tiles
             CheckTileType(ref Object, LayerType.Objects);
             CheckTileType(ref Floor, LayerType.Floors);
             CheckTileType(ref Base, LayerType.Base);
+            
+            if (Structure != _structureCurrent || Object != _objectCurrent || Floor != _floorCurrent || Base != _baseCurrent )
+            {
+                if (_structureCurrent == null && _objectCurrent == null && _floorCurrent == null && _baseCurrent == null)
+                {
+                    // if everything is null, it could be that it's loading on startup, so there already should be an preview sprite to load
+                    EditorApplication.delayCall+=()=>
+                    {
+                        PreviewSprite = PreviewSpriteBuilder.LoadSprite(this) ?? PreviewSpriteBuilder.Create(this);;
+                    };
+                }
+                else
+                {
+                    // something changed, so create a new preview sprite
+                    EditorApplication.delayCall+=()=>
+                    {
+                        PreviewSprite = PreviewSpriteBuilder.Create(this);
+                    };
+                }
+            }
+
+            _structureCurrent = Structure;
+            _objectCurrent = Object;
+            _floorCurrent = Floor;
+            _baseCurrent = Base;
         }
 
         private static void CheckTileType(ref LayerTile tile, LayerType requiredType)

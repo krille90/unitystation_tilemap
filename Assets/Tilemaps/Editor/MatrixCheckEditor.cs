@@ -13,7 +13,10 @@ namespace Tilemaps.Editor
         private static bool DrawGizmos;
 
         private static bool passable;
+        
         private static bool north;
+        private static bool south;
+        
         private static bool space;
 
         private SceneView currentSceneView;
@@ -45,6 +48,7 @@ namespace Tilemaps.Editor
             passable = GUILayout.Toggle(passable, "Passable");
             passable = !GUILayout.Toggle(!passable, "Atmos Passable");
             north = GUILayout.Toggle(north, "From North");
+            south = GUILayout.Toggle(south, "From South");
             space = GUILayout.Toggle(space, "Is Space");
 
             if (currentSceneView)
@@ -88,6 +92,13 @@ namespace Tilemaps.Editor
                         if (north)
                         {
                             if (!scr.IsPassableAt(position + Vector3Int.up, position))
+                            {
+                                Gizmos.DrawCube(position + new Vector3(0.5f, 0.5f, 0), Vector3.one);
+                            }
+                        }
+                        else if (south)
+                        {
+                            if (!scr.IsPassableAt(position + Vector3Int.down, position))
                             {
                                 Gizmos.DrawCube(position + new Vector3(0.5f, 0.5f, 0), Vector3.one);
                             }

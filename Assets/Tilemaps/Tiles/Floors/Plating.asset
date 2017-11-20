@@ -11,10 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c576ac449c2d45d99890dcfa21598645, type: 3}
   m_Name: Plating
   m_EditorClassIdentifier: 
-  LayerType: 3
-  RemoveFloor: 1
+  layerType: 3
   RequiredTiles: []
   Passable: 1
   AtmosPassable: 1
-  IsSpace: 1
+  IsSealed: 1
   sprite: {fileID: 21300008, guid: 6e84d48210ec87447876c3905e93f509, type: 3}

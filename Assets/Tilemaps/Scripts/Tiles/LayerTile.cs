@@ -26,12 +26,9 @@ namespace Tilemaps.Scripts.Tiles
 
         public LayerTile[] RequiredTiles;
 
-        public abstract bool IsPassableAt(Vector3Int from, Vector3Int to, Tilemap tilemap);
-
-        public abstract bool IsPassableAt(Vector3Int position, Tilemap tilemap);
-
-        public abstract bool IsAtmosPassableAt(Vector3Int position, Tilemap tilemap);
-
-        public abstract bool IsSpaceAt(Vector3Int position, Tilemap tilemap);
+        public virtual Matrix4x4 Rotate(Matrix4x4 transformMatrix, bool clockwise)
+        {
+            return transformMatrix;
+        }
     }
 }

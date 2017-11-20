@@ -16,7 +16,7 @@ namespace Tilemaps.Scripts.Behaviours.Layers
 
             foreach (var layer in GetComponentsInChildren<Layer>(true))
             {
-                layers[layer.layerType] = layer;
+                layers[layer.LayerType] = layer;
             }
         }
 
@@ -60,14 +60,22 @@ namespace Tilemaps.Scripts.Behaviours.Layers
             return true;
         }
 
-        public void SetTile(Vector3Int position, LayerTile tile)
+        public void SetTile(Vector3Int position, LayerTile tile, Matrix4x4 transformMatrix)
         {
-            layers[tile.LayerType].SetTile(position, tile);
+            layers[tile.LayerType].SetTile(position, tile, transformMatrix);
         }
 
-        public void SetPreviewTile(Vector3Int position, LayerTile tile)
+        public void SetPreviewTile(Vector3Int position, LayerTile tile, Matrix4x4 transformMatrix)
         {
-            layers[tile.LayerType].SetPreviewTile(position, tile);
+            foreach (var layer in layers.Values)
+            {
+                if (layer.LayerType <= tile.LayerType)
+                {
+                    layers[layer.LayerType].SetPreviewTile(position, tile, Matrix4x4.identity);
+                }
+            }
+            
+            layers[tile.LayerType].SetPreviewTile(position, tile, transformMatrix);
         }
 
         public void ClearPreview()
@@ -82,7 +90,7 @@ namespace Tilemaps.Scripts.Behaviours.Layers
         {
             foreach (var layer in layers.Values)
             {
-                if (layer.layerType < refLayer)
+                if (layer.LayerType < refLayer)
                 {
                     layer.RemoveTile(position);
                 }

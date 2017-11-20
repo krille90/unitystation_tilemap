@@ -9,56 +9,56 @@ namespace Tilemaps.Scripts.Utils
 {
     public class ItemList
     {
-        private Dictionary<Vector3Int, List<RegisterItem>> items = new Dictionary<Vector3Int, List<RegisterItem>>();
+        private Dictionary<Vector3Int, List<RegisterItem>> _items = new Dictionary<Vector3Int, List<RegisterItem>>();
 
         public void Add(Vector3Int position, RegisterItem item)
         {
-            if (!items.ContainsKey(position))
+            if (!_items.ContainsKey(position))
             {
-                items[position] = new List<RegisterItem>();
+                _items[position] = new List<RegisterItem>();
             }
 
-            if (!items[position].Contains(item))
+            if (!_items[position].Contains(item))
             {
-                items[position].Add(item);
-            }
-        }
-
-        public void RemoveAll(Vector3Int position)
-        {
-            if (items.ContainsKey(position))
-            {
-                items.Remove(position);
+                _items[position].Add(item);
             }
         }
 
-        public void DestroyAll(Vector3Int position)
+        public void Remove(Vector3Int position)
         {
-            if (items.ContainsKey(position))
+            if (_items.ContainsKey(position))
             {
-                foreach (var item in items[position].ToArray())
+                _items.Remove(position);
+            }
+        }
+
+        public void Destroy(Vector3Int position)
+        {
+            if (_items.ContainsKey(position))
+            {
+                foreach (var item in _items[position].ToArray())
                 {
                     Object.DestroyImmediate(item.gameObject);
                 }
-                RemoveAll(position);
+                Remove(position);
             }
         }
 
         public void Remove(Vector3Int position, RegisterItem item)
         {
-            if (items.ContainsKey(position))
+            if (_items.ContainsKey(position))
             {
-                items[position].Remove(item);
+                _items[position].Remove(item);
             }
         }
 
         public RegisterItem[] GetItems(Vector3Int position)
         {
-            if (!items.ContainsKey(position))
+            if (!_items.ContainsKey(position))
             {
-                items[position] = new List<RegisterItem>();
+                _items[position] = new List<RegisterItem>();
             }
-            return items[position].ToArray();
+            return _items[position].ToArray();
         }
     }
 }

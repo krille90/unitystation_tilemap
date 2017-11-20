@@ -8,18 +8,11 @@ namespace Tilemaps.Scripts.Behaviours.Objects
     {
         public bool closed = true;
 
-        public bool south;
-        
-        public override bool IsPassable(Vector3Int from)
+        public override bool IsPassable(Vector3Int origin)
         {
-            if (south)
-            {
-                return !(position + Vector3Int.down).Equals(from);
-            }
-            
-            return base.IsPassable(from);
+            return !closed || base.IsPassable(origin);
         }
-        
+
         public override bool IsPassable()
         {
             return !closed;

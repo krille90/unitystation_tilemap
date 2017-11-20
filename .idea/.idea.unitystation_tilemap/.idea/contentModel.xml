@@ -62,7 +62,6 @@
               <e p="BasicTile.cs" t="Include" />
               <e p="ConnectedTile.cs" t="Include" />
               <e p="GenericTile.cs" t="Include" />
-              <e p="ItemTile.cs" t="Include" />
               <e p="LayerTile.cs" t="Include" />
               <e p="MetaTile.cs" t="Include" />
               <e p="ObjectTile.cs" t="Include" />

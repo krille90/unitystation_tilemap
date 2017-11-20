@@ -68,7 +68,6 @@
     <Compile Include="Assets\Tilemaps\Scripts\Tiles\BasicTile.cs" />
     <Compile Include="Assets\Tilemaps\Scripts\Tiles\ConnectedTile.cs" />
     <Compile Include="Assets\Tilemaps\Scripts\Tiles\GenericTile.cs" />
-    <Compile Include="Assets\Tilemaps\Scripts\Tiles\ItemTile.cs" />
     <Compile Include="Assets\Tilemaps\Scripts\Tiles\LayerTile.cs" />
     <Compile Include="Assets\Tilemaps\Scripts\Tiles\MetaTile.cs" />
     <Compile Include="Assets\Tilemaps\Scripts\Tiles\ObjectTile.cs" />

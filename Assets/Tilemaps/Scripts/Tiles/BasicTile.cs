@@ -7,26 +7,21 @@ namespace Tilemaps.Scripts.Tiles
     {
         public bool Passable;
         public bool AtmosPassable;
-        public bool IsSpace;
+        public bool IsSealed;
         
-        public override bool IsPassableAt(Vector3Int from, Vector3Int to, Tilemap tilemap)
-        {
-            return IsPassableAt(to, tilemap);
-        }
-
-        public override bool IsPassableAt(Vector3Int position, Tilemap tilemap)
+        public bool IsPassable()
         {
             return Passable;
         }
 
-        public override bool IsAtmosPassableAt(Vector3Int position, Tilemap tilemap)
+        public bool IsAtmosPassable()
         {
             return AtmosPassable;
         }
 
-        public override bool IsSpaceAt(Vector3Int position, Tilemap tilemap)
+        public bool IsSpace()
         {
-            return IsAtmosPassableAt(position, tilemap) && IsSpace;
+            return IsAtmosPassable() && !IsSealed;
         }
     }
 }

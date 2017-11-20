@@ -64,17 +64,26 @@ namespace Tilemaps.Editor.Brushes
             }
         }
 
+        public override void Flip(FlipAxis flip, GridLayout.CellLayout layout)
+        {
+            if (Event.current.character == '>')
+            {
+                // TODO flip?
+            }
+        }
+        
         public override void Rotate(RotationDirection direction, GridLayout.CellLayout layout)
         {
             if (Event.current.character == '<')
             {
-                Debug.Log("rotate");
+                var tile = cells[0].tile as LayerTile;
+
+                if (tile != null) 
+                    cells[0].matrix = tile.Rotate(cells[0].matrix, direction == RotationDirection.Clockwise);
             }
-            
-            base.Rotate(direction, layout);
         }
 
-        private static void PlaceMetaTile(MetaTileMap metaTileMap, Vector3Int position, MetaTile metaTile)
+        private void PlaceMetaTile(MetaTileMap metaTileMap, Vector3Int position, MetaTile metaTile)
         {
             foreach (var tile in metaTile.GetTiles())
             {
@@ -82,21 +91,21 @@ namespace Tilemaps.Editor.Brushes
             }
         }
 
-        private static void PlaceLayerTile(MetaTileMap metaTileMap, Vector3Int position, LayerTile tile)
+        private void PlaceLayerTile(MetaTileMap metaTileMap, Vector3Int position, LayerTile tile)
         {
             metaTileMap.RemoveTile(position, tile.LayerType);
 
             SetTile(metaTileMap, position, tile);
         }
 
-        private static void SetTile(MetaTileMap metaTileMap, Vector3Int position, LayerTile tile)
+        private void SetTile(MetaTileMap metaTileMap, Vector3Int position, LayerTile tile)
         {
             foreach (var requiredTile in tile.RequiredTiles)
             {
                 SetTile(metaTileMap, position, requiredTile);
             }
 
-            metaTileMap.SetTile(position, tile);
+            metaTileMap.SetTile(position, tile, cells[0].matrix);
         }
     }
 }

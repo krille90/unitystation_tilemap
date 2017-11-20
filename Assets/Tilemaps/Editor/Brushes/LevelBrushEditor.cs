@@ -1,4 +1,5 @@
 using System.Linq;
+using System.Runtime.CompilerServices;
 using Tilemaps.Editor.Brushes.Utils;
 using Tilemaps.Scripts.Behaviours.Layers;
 using Tilemaps.Scripts.Tiles;
@@ -11,7 +12,20 @@ namespace Tilemaps.Editor.Brushes
     [CustomEditor(typeof(LevelBrush))]
     public class LevelBrushEditor : GridBrushEditor
     {
-        private MetaTileMap currentPreviewTilemap;
+        private MetaTileMap _currentPreviewTilemap;
+        private TileBase _currentPreviewTile;
+
+        private PreviewTile previewTile; // Preview Wrapper for ObjectTiles
+
+        public override GameObject[] validTargets
+        {
+            get
+            {
+                Grid[] grids = FindObjectsOfType<Grid>();
+
+                return grids?.Select(x => x.gameObject).ToArray();
+            }
+        }
         
         public override void RegisterUndo(GameObject layer, GridBrushBase.Tool tool)
         {
@@ -24,11 +38,21 @@ namespace Tilemaps.Editor.Brushes
         public override void PaintPreview(GridLayout gridLayout, GameObject brushTarget, Vector3Int position)
         {
             var metaTilemap = brushTarget.GetComponent<MetaTileMap>();
-            
-            var tile = this.brush.cells[0].tile;
 
+            if (!metaTilemap)
+                return;
+            
+            var tile = brush.cells[0].tile;
+            
             if (tile is LayerTile)
             {
+                if (tile != _currentPreviewTile)
+                {
+                    var layerTile = tile as LayerTile;
+                    brush.cells[0].matrix = layerTile.Rotate(Matrix4x4.identity, true);
+                    _currentPreviewTile = tile;
+                }
+                
                 SetPreviewTile(metaTilemap, position, (LayerTile) tile);
             }
             else if (tile is MetaTile)
@@ -39,39 +63,33 @@ namespace Tilemaps.Editor.Brushes
                 }
             }
             
-            currentPreviewTilemap = metaTilemap;
+            _currentPreviewTilemap = metaTilemap;
         }
 
         public override void ClearPreview()
         {
-            if (currentPreviewTilemap)
+            if (_currentPreviewTilemap)
             {
-                currentPreviewTilemap.ClearPreview();
+                _currentPreviewTilemap.ClearPreview();
             }
         }
 
-        private static void SetPreviewTile(MetaTileMap metaTilemap, Vector3Int position, LayerTile tile)
+        private void SetPreviewTile(MetaTileMap metaTilemap, Vector3Int position, LayerTile tile)
         {
             if (tile is ObjectTile)
             {
-                var previewTile = ScriptableObject.CreateInstance<PreviewTile>();
+                if (previewTile == null)
+                {
+                    previewTile = CreateInstance<PreviewTile>();
+                }
+
                 previewTile.ReferenceTile = tile;
-                metaTilemap.SetPreviewTile(position, previewTile);
+                tile = previewTile;
+                
+                position.z++; // to draw the object over already existing stuff
             }
-            else
-            {
-                metaTilemap.SetPreviewTile(position, tile);
-            }
-        }
-
-        public override GameObject[] validTargets
-        {
-            get
-            {
-                Grid[] grids = FindObjectsOfType<Grid>();
-
-                return grids?.Select(x => x.gameObject).ToArray();
-            }
+            
+            metaTilemap.SetPreviewTile(position, tile, brush.cells[0].matrix);
         }
     }
 }

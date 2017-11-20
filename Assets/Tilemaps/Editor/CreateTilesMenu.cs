@@ -14,8 +14,8 @@ namespace Tilemaps.Editor
         {
             var tile = CreateTile<ConnectedTile>(LayerType.Structures);
             tile.texturePath = "Walls";
-            tile.connectCategory = ConnectedTile.ConnectCategory.Walls;
-            tile.connectType = ConnectedTile.ConnectType.ToSameCategory;
+            tile.connectCategory = ConnectCategory.Walls;
+            tile.connectType = ConnectType.ToSameCategory;
 
             CreateAsset(tile, "WallTile");
         }
@@ -25,8 +25,8 @@ namespace Tilemaps.Editor
         {
             var tile = CreateTile<ConnectedTile>(LayerType.Structures);
             tile.texturePath = "Windows";
-            tile.connectCategory = ConnectedTile.ConnectCategory.Windows;
-            tile.connectType = ConnectedTile.ConnectType.ToSameCategory;
+            tile.connectCategory = ConnectCategory.Windows;
+            tile.connectType = ConnectType.ToSameCategory;
 
             CreateAsset(tile, "WindowTile");
         }
@@ -60,8 +60,8 @@ namespace Tilemaps.Editor
         {
             var tile = CreateTile<ConnectedTile>(LayerType.Objects);
             tile.texturePath = "Tables";
-            tile.connectCategory = ConnectedTile.ConnectCategory.Tables;
-            tile.connectType = ConnectedTile.ConnectType.ToSameCategory;
+            tile.connectCategory = ConnectCategory.Tables;
+            tile.connectType = ConnectType.ToSameCategory;
 
             CreateAsset(tile, "TableTile");
         }
@@ -69,12 +69,10 @@ namespace Tilemaps.Editor
         [MenuItem("Assets/Create/Tiles/Item", false, 0)]
         public static void CreateItem()
         {
-            var tile = CreateTile<ItemTile>(LayerType.Objects);
+            var tile = CreateTile<ObjectTile>(LayerType.Objects);
 
             CreateAsset(tile, "ItemTile");
         }
-        
-        
 
         #endregion
 
@@ -91,7 +89,7 @@ namespace Tilemaps.Editor
         {
             var tile = CreateTile<ConnectedTile>(LayerType.Floors);
             tile.texturePath = "Floors";
-            tile.connectCategory = ConnectedTile.ConnectCategory.Floors;
+            tile.connectCategory = ConnectCategory.Floors;
 
             CreateAsset(tile, "FloorTile");
         }

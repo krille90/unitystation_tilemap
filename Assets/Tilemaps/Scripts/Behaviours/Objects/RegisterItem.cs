@@ -7,26 +7,26 @@ namespace Tilemaps.Scripts.Behaviours.Objects
     [ExecuteInEditMode]
     public class RegisterItem : MonoBehaviour
     {
-        private ItemList _itemList;
+        private ObjectLayer layer;
 
         private Vector3Int position;
 
         private void Start()
         {
             position = Vector3Int.FloorToInt(transform.localPosition);
-            _itemList = transform.parent.GetComponent<ObjectLayer>().Items;
-            _itemList.Add(position, this);
+            layer = transform.parent.GetComponent<ObjectLayer>();
+            layer.Items.Add(position, this);
         }
     
         private void OnEnable()
         {
             // In case of recompilation and Start doesn't get called
-            _itemList?.Add(position, this);
+            layer?.Items.Add(position, this);
         }
 
         public void OnDestroy()
         {
-            _itemList?.Remove(position, this);
+            layer?.Items.Remove(position, this);
         }
     }
 }

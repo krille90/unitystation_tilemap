@@ -7,7 +7,7 @@ namespace Tilemaps.Scripts.Behaviours.Layers
     [ExecuteInEditMode]
     public class Layer : MonoBehaviour
     {
-        public LayerType layerType;
+        public LayerType LayerType;
         protected Tilemap tilemap;
 
         public void Awake()
@@ -15,9 +15,10 @@ namespace Tilemaps.Scripts.Behaviours.Layers
             tilemap = GetComponent<Tilemap>();
         }
 
-        public virtual void SetTile(Vector3Int position, LayerTile tile)
+        public virtual void SetTile(Vector3Int position, GenericTile tile, Matrix4x4 transformMatrix)
         {
             tilemap.SetTile(position, tile);
+            tilemap.SetTransformMatrix(position, transformMatrix);
         }
         
         public virtual void RemoveTile(Vector3Int position)
@@ -27,38 +28,32 @@ namespace Tilemaps.Scripts.Behaviours.Layers
 
         public virtual bool IsPassableAt(Vector3Int from, Vector3Int to)
         {
-            var tileFrom = tilemap.GetTile<LayerTile>(from);
-
-            if (tileFrom && !tileFrom.IsPassableAt(to, from, tilemap))
-            {
-                return false;
-            }
-
-            var tileTo = tilemap.GetTile<LayerTile>(to);
-            return !tileTo || tileTo.IsPassableAt(from, to, tilemap);
+            var tileTo = tilemap.GetTile<BasicTile>(to);
+            return !tileTo || tileTo.IsPassable();
         }
 
         public virtual bool IsPassableAt(Vector3Int position)
         {
-            var tile = tilemap.GetTile<LayerTile>(position);
-            return !tile || tile.IsPassableAt(position, tilemap);
+            var tile = tilemap.GetTile<BasicTile>(position);
+            return !tile || tile.IsPassable();
         }
 
         public virtual bool IsAtmosPassableAt(Vector3Int position)
         {
-            var tile = tilemap.GetTile<LayerTile>(position);
-            return !tile || tile.IsAtmosPassableAt(position, tilemap);
+            var tile = tilemap.GetTile<BasicTile>(position);
+            return !tile || tile.IsAtmosPassable();
         }
 
         public virtual bool IsSpaceAt(Vector3Int position)
         {
-            var tile = tilemap.GetTile<LayerTile>(position);
-            return !tile || tile.IsSpaceAt(position, tilemap);
+            var tile = tilemap.GetTile<BasicTile>(position);
+            return !tile || tile.IsSpace();
         }
 
-        public void SetPreviewTile(Vector3Int position, LayerTile tile)
+        public void SetPreviewTile(Vector3Int position, LayerTile tile, Matrix4x4 transformMatrix )
         {
             tilemap.SetEditorPreviewTile(position, tile);
+            tilemap.SetEditorPreviewTransformMatrix(position, transformMatrix);
         }
 
         public void ClearPreview()
