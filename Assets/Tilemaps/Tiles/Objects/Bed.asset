@@ -11,9 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f6d9c91341f45b9b64b432bc7100ddc, type: 3}
   m_Name: Bed
   m_EditorClassIdentifier: 
-  LayerType: 0
+  layerType: 1
   RequiredTiles: []
   Object: {fileID: 1609215198608670, guid: aada1ed7554d67741b995f71fe30ddcf, type: 2}
-  Rotatable: 0
-  KeepOrientation: 0
-  Offset: 0

@@ -8,7 +8,7 @@ using World.Behaviours;
 
 namespace Tilemaps.Editor
 {
-    public class TilemapCheckEditor : EditorWindow
+    public class MatrixCheckEditor : EditorWindow
     {
         private static bool DrawGizmos;
 
@@ -21,10 +21,10 @@ namespace Tilemaps.Editor
 
         private SceneView currentSceneView;
 
-        [MenuItem("Window/Tilemap Check")]
+        [MenuItem("Window/Matrix Check")]
         public static void ShowWindow()
         {
-            GetWindow<TilemapCheckEditor>("Tilemap Check");
+            GetWindow<MatrixCheckEditor>("Matrix Check");
         }
 
         public void OnEnable()

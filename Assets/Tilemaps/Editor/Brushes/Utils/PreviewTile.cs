@@ -7,6 +7,8 @@ namespace Tilemaps.Editor.Brushes.Utils
     public class PreviewTile : LayerTile
     {
         public LayerTile ReferenceTile;
+
+        public override LayerType LayerType => LayerType.Structures;
         
         public override void GetTileData(Vector3Int position, ITilemap tilemap, ref TileData tileData)
         {
