@@ -93,6 +93,7 @@ namespace Tilemaps.Editor.Brushes
                 }
 
                 previewTile.ReferenceTile = tile;
+                previewTile.LayerType = LayerType.Structures;
                 tile = previewTile;
                 
                 position.z++; // to draw the object over already existing stuff
