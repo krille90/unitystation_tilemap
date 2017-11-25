@@ -6,7 +6,7 @@ namespace Tilemaps.Scripts.Behaviours.Objects
     [ExecuteInEditMode]
     public class RegisterObject : RegisterTile
     {
-        //[HideInInspector]
+        [HideInInspector]
         public Vector3Int Offset = Vector3Int.zero;
         
         protected override void OnAddTile(Vector3Int oldPosition, Vector3Int newPosition)

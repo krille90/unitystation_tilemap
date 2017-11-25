@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: dfd10a88bbb441b18623f911dae3f735
-timeCreated: 1480234776
-licenseType: Pro
+timeCreated: 1511652035
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: status_display_0
@@ -198,6 +198,9 @@ TextureImporter:
     21300382: status_display_191
     21300384: status_display_192
     21300386: status_display_193
+    21300388: status_display_194
+    21300390: status_display_195
+  externalObjects: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -206,6 +209,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -221,10 +226,13 @@ TextureImporter:
   textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: 0
     aniso: 16
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -246,6 +254,7 @@ TextureImporter:
   platformSettings:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -254,6 +263,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: Standalone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -262,6 +272,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: iPhone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -270,6 +281,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: Android
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -278,6 +290,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: WebGL
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -291,2525 +304,2748 @@ TextureImporter:
       name: status_display_0
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 416
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 416
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_2
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 416
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_3
       rect:
         serializedVersion: 2
-        x: 128
+        x: 96
         y: 416
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_4
       rect:
         serializedVersion: 2
-        x: 160
+        x: 128
         y: 416
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_5
       rect:
         serializedVersion: 2
-        x: 192
+        x: 160
         y: 416
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_6
       rect:
         serializedVersion: 2
-        x: 224
+        x: 192
         y: 416
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_7
       rect:
         serializedVersion: 2
-        x: 256
+        x: 224
         y: 416
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_8
       rect:
         serializedVersion: 2
-        x: 288
+        x: 256
         y: 416
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_9
       rect:
         serializedVersion: 2
-        x: 320
+        x: 288
         y: 416
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_10
       rect:
         serializedVersion: 2
-        x: 352
+        x: 320
         y: 416
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_11
       rect:
         serializedVersion: 2
-        x: 384
+        x: 352
         y: 416
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_12
       rect:
         serializedVersion: 2
-        x: 416
+        x: 384
         y: 416
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
+        x: 416
+        y: 416
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_14
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_15
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_16
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_17
       rect:
         serializedVersion: 2
-        x: 128
+        x: 96
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_18
       rect:
         serializedVersion: 2
-        x: 160
+        x: 128
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_19
       rect:
         serializedVersion: 2
-        x: 192
+        x: 160
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_20
       rect:
         serializedVersion: 2
-        x: 224
+        x: 192
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_21
       rect:
         serializedVersion: 2
-        x: 256
+        x: 224
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_22
       rect:
         serializedVersion: 2
-        x: 288
+        x: 256
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_23
       rect:
         serializedVersion: 2
-        x: 320
+        x: 288
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_24
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_25
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_26
       rect:
         serializedVersion: 2
-        x: 0
-        y: 352
+        x: 384
+        y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_27
       rect:
         serializedVersion: 2
-        x: 32
-        y: 352
+        x: 416
+        y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_28
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_29
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_30
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_31
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_32
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_33
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_34
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_35
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_36
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_37
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_38
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_39
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_40
       rect:
         serializedVersion: 2
-        x: 0
-        y: 320
+        x: 384
+        y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_41
       rect:
         serializedVersion: 2
-        x: 32
-        y: 320
+        x: 416
+        y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_42
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_43
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_44
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_45
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_46
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_47
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_48
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_49
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_50
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_51
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_52
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_53
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_54
       rect:
         serializedVersion: 2
-        x: 0
-        y: 288
+        x: 384
+        y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_55
       rect:
         serializedVersion: 2
-        x: 32
-        y: 288
+        x: 416
+        y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_56
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_57
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_58
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_59
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_60
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_61
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_62
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_63
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_64
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_65
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_66
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_67
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_68
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
+        x: 384
+        y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_69
       rect:
         serializedVersion: 2
-        x: 32
-        y: 256
+        x: 416
+        y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_70
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_71
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_72
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_73
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_74
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_75
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_76
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_77
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_78
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_79
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_80
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_81
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_82
       rect:
         serializedVersion: 2
-        x: 0
-        y: 224
+        x: 384
+        y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_83
       rect:
         serializedVersion: 2
-        x: 32
-        y: 224
+        x: 416
+        y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_84
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_85
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_86
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_87
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_88
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_89
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_90
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_91
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_92
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_93
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_94
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_95
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_96
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
+        x: 384
+        y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_97
       rect:
         serializedVersion: 2
-        x: 32
-        y: 192
+        x: 416
+        y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_98
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_99
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_100
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_101
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_102
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_103
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_104
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_105
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_106
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_107
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_108
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_109
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_110
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
+        x: 384
+        y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_111
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
+        x: 416
+        y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_112
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_113
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_114
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_115
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_116
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_117
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_118
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_119
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_120
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_121
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_122
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_123
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_124
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 384
+        y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_125
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
+        x: 416
+        y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_126
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_127
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_128
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_129
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_130
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_131
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_132
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_133
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_134
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_135
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_136
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_137
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_138
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 384
+        y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_139
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
+        x: 416
+        y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_140
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_141
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_142
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_143
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_144
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_145
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_146
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_147
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_148
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_149
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_150
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_151
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_152
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 384
+        y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_153
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
+        x: 416
+        y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_154
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_155
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_156
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_157
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_158
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_159
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_160
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_161
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_162
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_163
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_164
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_165
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_166
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 384
+        y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: status_display_167
       rect:
         serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: status_display_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: status_display_169
+      rect:
+        serializedVersion: 2
         x: 32
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_168
+      name: status_display_170
       rect:
         serializedVersion: 2
         x: 64
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_169
+      name: status_display_171
       rect:
         serializedVersion: 2
         x: 96
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_170
+      name: status_display_172
       rect:
         serializedVersion: 2
         x: 128
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_171
+      name: status_display_173
       rect:
         serializedVersion: 2
         x: 160
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_172
+      name: status_display_174
       rect:
         serializedVersion: 2
         x: 192
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_173
+      name: status_display_175
       rect:
         serializedVersion: 2
         x: 224
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_174
+      name: status_display_176
       rect:
         serializedVersion: 2
         x: 256
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_175
+      name: status_display_177
       rect:
         serializedVersion: 2
         x: 288
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_176
+      name: status_display_178
       rect:
         serializedVersion: 2
         x: 320
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_177
+      name: status_display_179
       rect:
         serializedVersion: 2
         x: 352
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_178
+      name: status_display_180
       rect:
         serializedVersion: 2
         x: 384
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_179
+      name: status_display_181
       rect:
         serializedVersion: 2
         x: 416
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_180
+      name: status_display_182
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_181
+      name: status_display_183
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_182
+      name: status_display_184
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_183
+      name: status_display_185
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_184
+      name: status_display_186
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_185
+      name: status_display_187
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_186
+      name: status_display_188
       rect:
         serializedVersion: 2
         x: 192
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_187
+      name: status_display_189
       rect:
         serializedVersion: 2
         x: 224
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_188
+      name: status_display_190
       rect:
         serializedVersion: 2
         x: 256
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_189
+      name: status_display_191
       rect:
         serializedVersion: 2
         x: 288
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_190
+      name: status_display_192
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_191
+      name: status_display_193
       rect:
         serializedVersion: 2
         x: 352
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_192
+      name: status_display_194
       rect:
         serializedVersion: 2
         x: 384
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
-      name: status_display_193
+      name: status_display_195
       rect:
         serializedVersion: 2
         x: 416
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     outline: []
+    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

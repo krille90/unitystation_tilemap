@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 19f6ef6ee7639411ab17229343906b20
-timeCreated: 1496505535
-licenseType: Pro
+timeCreated: 1511652030
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: shuttle_0
@@ -270,7 +270,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0

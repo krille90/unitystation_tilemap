@@ -42,7 +42,7 @@
               </e>
             </e>
             <e p="CreateTilesMenu.cs" t="Include" />
-            <e p="MatrixCheckEditor.cs" t="Include" />
+            <e p="TilemapCheckEditor.cs" t="Include" />
             <e p="Utils" t="Include">
               <e p="TileBuilder.cs" t="Include" />
             </e>

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d12fbc36d7e7415ba557e94c9d7d7fb5
-timeCreated: 1481328029
+timeCreated: 1511652002
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -185,6 +185,8 @@ TextureImporter:
     21300356: chemical_178
     21300358: chemical_179
     21300360: chemical_180
+    21300362: chemical_181
+  externalObjects: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -193,6 +195,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -208,10 +212,13 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: 0
     aniso: -1
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -233,6 +240,7 @@ TextureImporter:
   platformSettings:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -241,6 +249,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: Standalone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -249,6 +258,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: iPhone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -257,6 +267,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: Android
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -265,6 +276,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: WebGL
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -282,11 +294,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_1
       rect:
@@ -295,11 +308,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_2
       rect:
@@ -308,11 +322,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_3
       rect:
@@ -321,11 +336,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_4
       rect:
@@ -334,11 +350,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_5
       rect:
@@ -347,11 +364,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_6
       rect:
@@ -360,11 +378,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_7
       rect:
@@ -373,11 +392,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_8
       rect:
@@ -386,11 +406,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_9
       rect:
@@ -399,11 +420,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_10
       rect:
@@ -412,11 +434,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_11
       rect:
@@ -425,11 +448,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_12
       rect:
@@ -438,11 +462,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_13
       rect:
@@ -451,11 +476,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_14
       rect:
@@ -464,11 +490,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_15
       rect:
@@ -477,11 +504,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_16
       rect:
@@ -490,11 +518,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_17
       rect:
@@ -503,11 +532,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_18
       rect:
@@ -516,11 +546,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_19
       rect:
@@ -529,11 +560,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_20
       rect:
@@ -542,11 +574,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_21
       rect:
@@ -555,11 +588,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_22
       rect:
@@ -568,11 +602,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_23
       rect:
@@ -581,11 +616,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_24
       rect:
@@ -594,11 +630,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_25
       rect:
@@ -607,11 +644,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_26
       rect:
@@ -620,11 +658,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_27
       rect:
@@ -633,11 +672,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_28
       rect:
@@ -646,11 +686,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_29
       rect:
@@ -659,11 +700,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_30
       rect:
@@ -672,11 +714,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_31
       rect:
@@ -685,11 +728,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_32
       rect:
@@ -698,11 +742,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_33
       rect:
@@ -711,11 +756,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_34
       rect:
@@ -724,11 +770,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_35
       rect:
@@ -737,11 +784,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_36
       rect:
@@ -750,11 +798,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_37
       rect:
@@ -763,11 +812,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_38
       rect:
@@ -776,11 +826,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_39
       rect:
@@ -789,11 +840,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_40
       rect:
@@ -802,11 +854,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_41
       rect:
@@ -815,11 +868,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_42
       rect:
@@ -828,11 +882,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_43
       rect:
@@ -841,11 +896,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_44
       rect:
@@ -854,11 +910,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_45
       rect:
@@ -867,11 +924,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_46
       rect:
@@ -880,11 +938,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_47
       rect:
@@ -893,11 +952,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_48
       rect:
@@ -906,11 +966,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_49
       rect:
@@ -919,11 +980,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_50
       rect:
@@ -932,11 +994,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_51
       rect:
@@ -945,11 +1008,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_52
       rect:
@@ -958,11 +1022,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_53
       rect:
@@ -971,11 +1036,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_54
       rect:
@@ -984,11 +1050,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_55
       rect:
@@ -997,11 +1064,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_56
       rect:
@@ -1010,11 +1078,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_57
       rect:
@@ -1023,11 +1092,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_58
       rect:
@@ -1036,11 +1106,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_59
       rect:
@@ -1049,11 +1120,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_60
       rect:
@@ -1062,11 +1134,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_61
       rect:
@@ -1075,11 +1148,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_62
       rect:
@@ -1088,11 +1162,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_63
       rect:
@@ -1101,11 +1176,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_64
       rect:
@@ -1114,11 +1190,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_65
       rect:
@@ -1127,11 +1204,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_66
       rect:
@@ -1140,11 +1218,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_67
       rect:
@@ -1153,11 +1232,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_68
       rect:
@@ -1166,11 +1246,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_69
       rect:
@@ -1179,11 +1260,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_70
       rect:
@@ -1192,11 +1274,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_71
       rect:
@@ -1205,11 +1288,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_72
       rect:
@@ -1218,11 +1302,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_73
       rect:
@@ -1231,11 +1316,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_74
       rect:
@@ -1244,11 +1330,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_75
       rect:
@@ -1257,11 +1344,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_76
       rect:
@@ -1270,11 +1358,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_77
       rect:
@@ -1283,11 +1372,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_78
       rect:
@@ -1296,11 +1386,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_79
       rect:
@@ -1309,11 +1400,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_80
       rect:
@@ -1322,11 +1414,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_81
       rect:
@@ -1335,11 +1428,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_82
       rect:
@@ -1348,11 +1442,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_83
       rect:
@@ -1361,11 +1456,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_84
       rect:
@@ -1374,11 +1470,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_85
       rect:
@@ -1387,11 +1484,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_86
       rect:
@@ -1400,11 +1498,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_87
       rect:
@@ -1413,11 +1512,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_88
       rect:
@@ -1426,11 +1526,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_89
       rect:
@@ -1439,11 +1540,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_90
       rect:
@@ -1452,11 +1554,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_91
       rect:
@@ -1465,11 +1568,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_92
       rect:
@@ -1478,11 +1582,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_93
       rect:
@@ -1491,11 +1596,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_94
       rect:
@@ -1504,11 +1610,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_95
       rect:
@@ -1517,11 +1624,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_96
       rect:
@@ -1530,11 +1638,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_97
       rect:
@@ -1543,11 +1652,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_98
       rect:
@@ -1556,11 +1666,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_99
       rect:
@@ -1569,11 +1680,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_100
       rect:
@@ -1582,11 +1694,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_101
       rect:
@@ -1595,11 +1708,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_102
       rect:
@@ -1608,11 +1722,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_103
       rect:
@@ -1621,11 +1736,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_104
       rect:
@@ -1634,11 +1750,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_105
       rect:
@@ -1647,11 +1764,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_106
       rect:
@@ -1660,11 +1778,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_107
       rect:
@@ -1673,11 +1792,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_108
       rect:
@@ -1686,11 +1806,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_109
       rect:
@@ -1699,11 +1820,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_110
       rect:
@@ -1712,11 +1834,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_111
       rect:
@@ -1725,11 +1848,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_112
       rect:
@@ -1738,11 +1862,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_113
       rect:
@@ -1751,11 +1876,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_114
       rect:
@@ -1764,11 +1890,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_115
       rect:
@@ -1777,11 +1904,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_116
       rect:
@@ -1790,11 +1918,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_117
       rect:
@@ -1803,11 +1932,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_118
       rect:
@@ -1816,11 +1946,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_119
       rect:
@@ -1829,11 +1960,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_120
       rect:
@@ -1842,11 +1974,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_121
       rect:
@@ -1855,11 +1988,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_122
       rect:
@@ -1868,11 +2002,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_123
       rect:
@@ -1881,11 +2016,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_124
       rect:
@@ -1894,11 +2030,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_125
       rect:
@@ -1907,11 +2044,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_126
       rect:
@@ -1920,11 +2058,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_127
       rect:
@@ -1933,11 +2072,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_128
       rect:
@@ -1946,11 +2086,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_129
       rect:
@@ -1959,11 +2100,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_130
       rect:
@@ -1972,11 +2114,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_131
       rect:
@@ -1985,11 +2128,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_132
       rect:
@@ -1998,11 +2142,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_133
       rect:
@@ -2011,11 +2156,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_134
       rect:
@@ -2024,11 +2170,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_135
       rect:
@@ -2037,11 +2184,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_136
       rect:
@@ -2050,11 +2198,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_137
       rect:
@@ -2063,11 +2212,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_138
       rect:
@@ -2076,11 +2226,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_139
       rect:
@@ -2089,11 +2240,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_140
       rect:
@@ -2102,11 +2254,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_141
       rect:
@@ -2115,11 +2268,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_142
       rect:
@@ -2128,11 +2282,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_143
       rect:
@@ -2141,11 +2296,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_144
       rect:
@@ -2154,11 +2310,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_145
       rect:
@@ -2167,11 +2324,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_146
       rect:
@@ -2180,11 +2338,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_147
       rect:
@@ -2193,11 +2352,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_148
       rect:
@@ -2206,11 +2366,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_149
       rect:
@@ -2219,11 +2380,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_150
       rect:
@@ -2232,11 +2394,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_151
       rect:
@@ -2245,11 +2408,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_152
       rect:
@@ -2258,11 +2422,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_153
       rect:
@@ -2271,11 +2436,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_154
       rect:
@@ -2284,11 +2450,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_155
       rect:
@@ -2297,11 +2464,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_156
       rect:
@@ -2310,11 +2478,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_157
       rect:
@@ -2323,11 +2492,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_158
       rect:
@@ -2336,11 +2506,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_159
       rect:
@@ -2349,11 +2520,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_160
       rect:
@@ -2362,11 +2534,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_161
       rect:
@@ -2375,11 +2548,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_162
       rect:
@@ -2388,11 +2562,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_163
       rect:
@@ -2401,11 +2576,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_164
       rect:
@@ -2414,11 +2590,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_165
       rect:
@@ -2427,11 +2604,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_166
       rect:
@@ -2440,11 +2618,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_167
       rect:
@@ -2453,11 +2632,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_168
       rect:
@@ -2466,11 +2646,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_169
       rect:
@@ -2479,11 +2660,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_170
       rect:
@@ -2492,11 +2674,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_171
       rect:
@@ -2505,11 +2688,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_172
       rect:
@@ -2518,11 +2702,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_173
       rect:
@@ -2531,11 +2716,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_174
       rect:
@@ -2544,11 +2730,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_175
       rect:
@@ -2557,11 +2744,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_176
       rect:
@@ -2570,11 +2758,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_177
       rect:
@@ -2583,11 +2772,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_178
       rect:
@@ -2596,11 +2786,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_179
       rect:
@@ -2609,25 +2800,42 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: chemical_180
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: chemical_181
       rect:
         serializedVersion: 2
         x: 416
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     outline: []
+    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

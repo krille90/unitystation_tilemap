@@ -68,7 +68,10 @@ namespace Tilemaps.Scripts.Utils
 
                     foreach (var r in renderers)
                     {
-                        sprites.Add(r.sprite);
+                        if (r.sprite != null)
+                        {
+                            sprites.Add(r.sprite);
+                        }
                     }
                 }
             }

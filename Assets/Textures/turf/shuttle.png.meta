@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9fa652f05ffb4d27afcf8e281b54ba51
-timeCreated: 1478964877
+timeCreated: 1511652169
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -172,6 +172,8 @@ TextureImporter:
     21300330: shuttle_165
     21300332: shuttle_166
     21300334: shuttle_167
+    21300336: shuttle_168
+  externalObjects: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -180,6 +182,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -195,10 +199,13 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: 0
     aniso: 16
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -220,6 +227,7 @@ TextureImporter:
   platformSettings:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -228,6 +236,7 @@ TextureImporter:
     overridden: 0
   - buildTarget: Standalone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -245,11 +254,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_1
       rect:
@@ -258,11 +268,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_2
       rect:
@@ -271,11 +282,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_3
       rect:
@@ -284,11 +296,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_4
       rect:
@@ -297,11 +310,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_5
       rect:
@@ -310,11 +324,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_6
       rect:
@@ -323,11 +338,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_7
       rect:
@@ -336,11 +352,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_8
       rect:
@@ -349,11 +366,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_9
       rect:
@@ -362,11 +380,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_10
       rect:
@@ -375,11 +394,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_11
       rect:
@@ -388,11 +408,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_12
       rect:
@@ -401,11 +422,12 @@ TextureImporter:
         y: 384
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_13
       rect:
@@ -414,11 +436,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_14
       rect:
@@ -427,11 +450,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_15
       rect:
@@ -440,11 +464,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_16
       rect:
@@ -453,11 +478,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_17
       rect:
@@ -466,11 +492,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_18
       rect:
@@ -479,11 +506,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_19
       rect:
@@ -492,11 +520,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_20
       rect:
@@ -505,11 +534,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_21
       rect:
@@ -518,11 +548,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_22
       rect:
@@ -531,11 +562,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_23
       rect:
@@ -544,11 +576,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_24
       rect:
@@ -557,11 +590,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_25
       rect:
@@ -570,11 +604,12 @@ TextureImporter:
         y: 352
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_26
       rect:
@@ -583,11 +618,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_27
       rect:
@@ -596,11 +632,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_28
       rect:
@@ -609,11 +646,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_29
       rect:
@@ -622,11 +660,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_30
       rect:
@@ -635,11 +674,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_31
       rect:
@@ -648,11 +688,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_32
       rect:
@@ -661,11 +702,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_33
       rect:
@@ -674,11 +716,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_34
       rect:
@@ -687,11 +730,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_35
       rect:
@@ -700,11 +744,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_36
       rect:
@@ -713,11 +758,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_37
       rect:
@@ -726,11 +772,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_38
       rect:
@@ -739,11 +786,12 @@ TextureImporter:
         y: 320
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_39
       rect:
@@ -752,11 +800,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_40
       rect:
@@ -765,11 +814,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_41
       rect:
@@ -778,11 +828,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_42
       rect:
@@ -791,11 +842,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_43
       rect:
@@ -804,11 +856,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_44
       rect:
@@ -817,11 +870,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_45
       rect:
@@ -830,11 +884,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_46
       rect:
@@ -843,11 +898,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_47
       rect:
@@ -856,11 +912,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_48
       rect:
@@ -869,11 +926,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_49
       rect:
@@ -882,11 +940,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_50
       rect:
@@ -895,11 +954,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_51
       rect:
@@ -908,11 +968,12 @@ TextureImporter:
         y: 288
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_52
       rect:
@@ -921,11 +982,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_53
       rect:
@@ -934,11 +996,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_54
       rect:
@@ -947,11 +1010,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_55
       rect:
@@ -960,11 +1024,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_56
       rect:
@@ -973,11 +1038,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_57
       rect:
@@ -986,11 +1052,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_58
       rect:
@@ -999,11 +1066,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_59
       rect:
@@ -1012,11 +1080,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_60
       rect:
@@ -1025,11 +1094,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_61
       rect:
@@ -1038,11 +1108,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_62
       rect:
@@ -1051,11 +1122,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_63
       rect:
@@ -1064,11 +1136,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_64
       rect:
@@ -1077,11 +1150,12 @@ TextureImporter:
         y: 256
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_65
       rect:
@@ -1090,11 +1164,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_66
       rect:
@@ -1103,11 +1178,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_67
       rect:
@@ -1116,11 +1192,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_68
       rect:
@@ -1129,11 +1206,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_69
       rect:
@@ -1142,11 +1220,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_70
       rect:
@@ -1155,11 +1234,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_71
       rect:
@@ -1168,11 +1248,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_72
       rect:
@@ -1181,11 +1262,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_73
       rect:
@@ -1194,11 +1276,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_74
       rect:
@@ -1207,11 +1290,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_75
       rect:
@@ -1220,11 +1304,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_76
       rect:
@@ -1233,11 +1318,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_77
       rect:
@@ -1246,11 +1332,12 @@ TextureImporter:
         y: 224
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_78
       rect:
@@ -1259,11 +1346,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_79
       rect:
@@ -1272,11 +1360,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_80
       rect:
@@ -1285,11 +1374,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_81
       rect:
@@ -1298,11 +1388,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_82
       rect:
@@ -1311,11 +1402,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_83
       rect:
@@ -1324,11 +1416,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_84
       rect:
@@ -1337,11 +1430,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_85
       rect:
@@ -1350,11 +1444,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_86
       rect:
@@ -1363,11 +1458,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_87
       rect:
@@ -1376,11 +1472,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_88
       rect:
@@ -1389,11 +1486,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_89
       rect:
@@ -1402,11 +1500,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_90
       rect:
@@ -1415,11 +1514,12 @@ TextureImporter:
         y: 192
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_91
       rect:
@@ -1428,11 +1528,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_92
       rect:
@@ -1441,11 +1542,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_93
       rect:
@@ -1454,11 +1556,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_94
       rect:
@@ -1467,11 +1570,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_95
       rect:
@@ -1480,11 +1584,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_96
       rect:
@@ -1493,11 +1598,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_97
       rect:
@@ -1506,11 +1612,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_98
       rect:
@@ -1519,11 +1626,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_99
       rect:
@@ -1532,11 +1640,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_100
       rect:
@@ -1545,11 +1654,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_101
       rect:
@@ -1558,11 +1668,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_102
       rect:
@@ -1571,11 +1682,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_103
       rect:
@@ -1584,11 +1696,12 @@ TextureImporter:
         y: 160
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_104
       rect:
@@ -1597,11 +1710,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_105
       rect:
@@ -1610,11 +1724,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_106
       rect:
@@ -1623,11 +1738,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_107
       rect:
@@ -1636,11 +1752,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_108
       rect:
@@ -1649,11 +1766,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_109
       rect:
@@ -1662,11 +1780,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_110
       rect:
@@ -1675,11 +1794,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_111
       rect:
@@ -1688,11 +1808,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_112
       rect:
@@ -1701,11 +1822,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_113
       rect:
@@ -1714,11 +1836,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_114
       rect:
@@ -1727,11 +1850,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_115
       rect:
@@ -1740,11 +1864,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_116
       rect:
@@ -1753,11 +1878,12 @@ TextureImporter:
         y: 128
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_117
       rect:
@@ -1766,11 +1892,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_118
       rect:
@@ -1779,11 +1906,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_119
       rect:
@@ -1792,11 +1920,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_120
       rect:
@@ -1805,11 +1934,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_121
       rect:
@@ -1818,11 +1948,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_122
       rect:
@@ -1831,11 +1962,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_123
       rect:
@@ -1844,11 +1976,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_124
       rect:
@@ -1857,11 +1990,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_125
       rect:
@@ -1870,11 +2004,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_126
       rect:
@@ -1883,11 +2018,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_127
       rect:
@@ -1896,11 +2032,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_128
       rect:
@@ -1909,11 +2046,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_129
       rect:
@@ -1922,11 +2060,12 @@ TextureImporter:
         y: 96
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_130
       rect:
@@ -1935,11 +2074,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_131
       rect:
@@ -1948,11 +2088,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_132
       rect:
@@ -1961,11 +2102,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_133
       rect:
@@ -1974,11 +2116,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_134
       rect:
@@ -1987,11 +2130,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_135
       rect:
@@ -2000,11 +2144,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_136
       rect:
@@ -2013,11 +2158,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_137
       rect:
@@ -2026,11 +2172,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_138
       rect:
@@ -2039,11 +2186,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_139
       rect:
@@ -2052,11 +2200,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_140
       rect:
@@ -2065,11 +2214,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_141
       rect:
@@ -2078,11 +2228,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_142
       rect:
@@ -2091,11 +2242,12 @@ TextureImporter:
         y: 64
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_143
       rect:
@@ -2104,11 +2256,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_144
       rect:
@@ -2117,11 +2270,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_145
       rect:
@@ -2130,11 +2284,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_146
       rect:
@@ -2143,11 +2298,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_147
       rect:
@@ -2156,11 +2312,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_148
       rect:
@@ -2169,11 +2326,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_149
       rect:
@@ -2182,11 +2340,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_150
       rect:
@@ -2195,11 +2354,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_151
       rect:
@@ -2208,11 +2368,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_152
       rect:
@@ -2221,11 +2382,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_153
       rect:
@@ -2234,11 +2396,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_154
       rect:
@@ -2247,11 +2410,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_155
       rect:
@@ -2260,11 +2424,12 @@ TextureImporter:
         y: 32
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_156
       rect:
@@ -2273,11 +2438,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_157
       rect:
@@ -2286,11 +2452,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_158
       rect:
@@ -2299,11 +2466,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_159
       rect:
@@ -2312,11 +2480,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_160
       rect:
@@ -2325,11 +2494,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_161
       rect:
@@ -2338,11 +2508,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_162
       rect:
@@ -2351,11 +2522,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_163
       rect:
@@ -2364,11 +2536,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_164
       rect:
@@ -2377,11 +2550,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_165
       rect:
@@ -2390,11 +2564,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_166
       rect:
@@ -2403,11 +2578,12 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
     - serializedVersion: 2
       name: shuttle_167
       rect:
@@ -2416,12 +2592,28 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: 0
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: shuttle_168
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
     outline: []
+    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: turf/default

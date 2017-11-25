@@ -1,38 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ac4cbb8-bb8a-4ebe-8a70-08aa9ba04a29" name="Default" comment="Tile palette system 1.0">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/TilePreviews/Tilemaps/Tiles/Windows/GrillWindow.png" afterPath="$PROJECT_DIR$/Assets/Textures/TilePreviews/Tilemaps/Tiles/Windows/GrillWindow.png" />
+    <list default="true" id="5ac4cbb8-bb8a-4ebe-8a70-08aa9ba04a29" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Textures/TilePreviews/Prefabs/Knife2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Textures/TilePreviews/Prefabs/Knife2.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Textures/TilePreviews/Prefabs/Machines/vending.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Textures/TilePreviews/Prefabs/Machines/vending.png.meta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/expandedItems" afterPath="$PROJECT_DIR$/Library/expandedItems" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000005100000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000005100000000000000" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000008000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000008000000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000e100000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000e100000000000000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/0d/0d3bb855445e36e479c85976fc88383a" afterPath="$PROJECT_DIR$/Library/metadata/0d/0d3bb855445e36e479c85976fc88383a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333" afterPath="$PROJECT_DIR$/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/19/19e6f67cbd71fe94594889a8e3c88edf" afterPath="$PROJECT_DIR$/Library/metadata/19/19e6f67cbd71fe94594889a8e3c88edf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77" afterPath="$PROJECT_DIR$/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1" afterPath="$PROJECT_DIR$/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/26/2682a692a2be7e14e901a738c7806da0" afterPath="$PROJECT_DIR$/Library/metadata/26/2682a692a2be7e14e901a738c7806da0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/30/30aa2886e2b748d48fbe4b155c65025f" afterPath="$PROJECT_DIR$/Library/metadata/30/30aa2886e2b748d48fbe4b155c65025f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/32/32188fd89022c154c81befa2f0e00be0" afterPath="$PROJECT_DIR$/Library/metadata/32/32188fd89022c154c81befa2f0e00be0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9" afterPath="$PROJECT_DIR$/Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/33/333c862c35255b645951cb4355fe0a90" afterPath="$PROJECT_DIR$/Library/metadata/33/333c862c35255b645951cb4355fe0a90" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc" afterPath="$PROJECT_DIR$/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a" afterPath="$PROJECT_DIR$/Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/40/405b9b51bb344a128608d968297df79c" afterPath="$PROJECT_DIR$/Library/metadata/40/405b9b51bb344a128608d968297df79c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/40/40905a1694b10f040a7eda525c913d22" afterPath="$PROJECT_DIR$/Library/metadata/40/40905a1694b10f040a7eda525c913d22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/41/4113173d5e95493ab8765d7b08371de4" afterPath="$PROJECT_DIR$/Library/metadata/41/4113173d5e95493ab8765d7b08371de4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70" afterPath="$PROJECT_DIR$/Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8" afterPath="$PROJECT_DIR$/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f" afterPath="$PROJECT_DIR$/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/51/517af1b5b81b93b43b9745d58f017562" afterPath="$PROJECT_DIR$/Library/metadata/51/517af1b5b81b93b43b9745d58f017562" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1" afterPath="$PROJECT_DIR$/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc" afterPath="$PROJECT_DIR$/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7" afterPath="$PROJECT_DIR$/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5" afterPath="$PROJECT_DIR$/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/6b/6b795b2bcc574cb4290522b730e3e0e9" afterPath="$PROJECT_DIR$/Library/metadata/6b/6b795b2bcc574cb4290522b730e3e0e9" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/75/75799de484ac4f4cadc268d2cbea830a" afterPath="$PROJECT_DIR$/Library/metadata/75/75799de484ac4f4cadc268d2cbea830a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/76/7668179ede524d6396c8b7d84461ea29" afterPath="$PROJECT_DIR$/Library/metadata/76/7668179ede524d6396c8b7d84461ea29" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f" afterPath="$PROJECT_DIR$/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/84/844f815391db42d49455cbf1a7bfc434" afterPath="$PROJECT_DIR$/Library/metadata/84/844f815391db42d49455cbf1a7bfc434" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba" afterPath="$PROJECT_DIR$/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe" afterPath="$PROJECT_DIR$/Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/90/9078b7128e594410d9b89e5b24cffd01" afterPath="$PROJECT_DIR$/Library/metadata/90/9078b7128e594410d9b89e5b24cffd01" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/9a/9a459a0316cc4d5b87d046f28dc136c8" afterPath="$PROJECT_DIR$/Library/metadata/9a/9a459a0316cc4d5b87d046f28dc136c8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f" afterPath="$PROJECT_DIR$/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e" afterPath="$PROJECT_DIR$/Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70" afterPath="$PROJECT_DIR$/Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/b5/b5da970776034f77a070d99423d68791" afterPath="$PROJECT_DIR$/Library/metadata/b5/b5da970776034f77a070d99423d68791" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/b8/b8a0574e92bd43a59e19d6c3c6ae54c7" afterPath="$PROJECT_DIR$/Library/metadata/b8/b8a0574e92bd43a59e19d6c3c6ae54c7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/bc/bc7b66c2be20f9143a53c8c0e3b72803" afterPath="$PROJECT_DIR$/Library/metadata/bc/bc7b66c2be20f9143a53c8c0e3b72803" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/c7/c768acbc9cf24d398488bb4c93b91288" afterPath="$PROJECT_DIR$/Library/metadata/c7/c768acbc9cf24d398488bb4c93b91288" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/d2/d2b9784f04c6476aa7d051ffb2246c85" afterPath="$PROJECT_DIR$/Library/metadata/d2/d2b9784f04c6476aa7d051ffb2246c85" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/d3/d33d54853fd0f48e0ac8a63ea91e6626" afterPath="$PROJECT_DIR$/Library/metadata/d3/d33d54853fd0f48e0ac8a63ea91e6626" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/d5/d566cd5677ce2344e8722571de261e7f" afterPath="$PROJECT_DIR$/Library/metadata/d5/d566cd5677ce2344e8722571de261e7f" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0" afterPath="$PROJECT_DIR$/Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb" afterPath="$PROJECT_DIR$/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/dd/ddc4d811f086dc34c9b8d9d70eb0d7a3" afterPath="$PROJECT_DIR$/Library/metadata/dd/ddc4d811f086dc34c9b8d9d70eb0d7a3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/dd/ddc4d811f086dc34c9b8d9d70eb0d7a3.info" afterPath="$PROJECT_DIR$/Library/metadata/dd/ddc4d811f086dc34c9b8d9d70eb0d7a3.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/e1/e1007cd261c84053beb0c3537782908d" afterPath="$PROJECT_DIR$/Library/metadata/e1/e1007cd261c84053beb0c3537782908d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a" afterPath="$PROJECT_DIR$/Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680" afterPath="$PROJECT_DIR$/Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea" afterPath="$PROJECT_DIR$/Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8" afterPath="$PROJECT_DIR$/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/f7/f70555f144d8491a825f0804e09c671c" afterPath="$PROJECT_DIR$/Library/metadata/f7/f70555f144d8491a825f0804e09c671c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc" afterPath="$PROJECT_DIR$/Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.unitystation_tilemap/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.unitystation_tilemap/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.unitystation_tilemap/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.unitystation_tilemap/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/TilePreviews/Tilemaps/Tiles/Windows/GrillWindow.png.meta" afterPath="$PROJECT_DIR$/Assets/Textures/TilePreviews/Tilemaps/Tiles/Windows/GrillWindow.png.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/LevelBrushEditor.cs" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/LevelBrushEditor.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/Utils/PreviewTile.cs" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/Utils/PreviewTile.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Editor/Palettes/Machines.prefab" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Editor/Palettes/Machines.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniture/comfy_chair.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniture/comfy_chair.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Machines/DinnerWare Vendor.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Machines/DinnerWare Vendor.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Machines/Nanomed Plus.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Machines/Nanomed Plus.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Prefabs/Machines/SmartFridge.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/Machines/SmartFridge.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/TilePreviews/Prefabs/Radio.png.meta" afterPath="$PROJECT_DIR$/Assets/Textures/TilePreviews/Prefabs/Radio.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/TilePreviews/Prefabs/Shuttle/Shuttle_engine_E.png.meta" afterPath="$PROJECT_DIR$/Assets/Textures/TilePreviews/Prefabs/Shuttle/Shuttle_engine_E.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/TilePreviews/Prefabs/Shuttle/Shuttle_engine_center.png.meta" afterPath="$PROJECT_DIR$/Assets/Textures/TilePreviews/Prefabs/Shuttle/Shuttle_engine_center.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/chairs.png.meta" afterPath="$PROJECT_DIR$/Assets/Textures/chairs.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/chemical.png.meta" afterPath="$PROJECT_DIR$/Assets/Textures/chemical.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/closet.png.meta" afterPath="$PROJECT_DIR$/Assets/Textures/closet.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/disposal.png.meta" afterPath="$PROJECT_DIR$/Assets/Textures/disposal.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/kitchen.png.meta" afterPath="$PROJECT_DIR$/Assets/Textures/kitchen.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/shuttle.png.meta" afterPath="$PROJECT_DIR$/Assets/Textures/shuttle.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/status_display.png.meta" afterPath="$PROJECT_DIR$/Assets/Textures/status_display.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/turf/shuttle.png.meta" afterPath="$PROJECT_DIR$/Assets/Textures/turf/shuttle.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/watercloset.png.meta" afterPath="$PROJECT_DIR$/Assets/Textures/watercloset.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Textures/windoor.png.meta" afterPath="$PROJECT_DIR$/Assets/Textures/windoor.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Editor/Palettes/Objects.prefab" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Editor/Palettes/Objects.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Editor/Palettes/Wall Mounts.prefab" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Editor/Palettes/Wall Mounts.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterObject.cs" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterObject.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/BasicTile.cs" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/BasicTile.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/LayerTile.cs" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/LayerTile.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Tiles/Objects/Bed.asset" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Tiles/Objects/Bed.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Tiles/Objects/Closets/Closet.asset" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Tiles/Objects/Closets/Closet.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Tiles/Objects/Grill.asset" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Tiles/Objects/Grill.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Tiles/Objects/Radio.asset" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Tiles/Objects/Radio.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Tiles/Objects/Vent.asset" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Tiles/Objects/Vent.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Utils/PreviewSpriteBuilder.cs" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Utils/PreviewSpriteBuilder.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Tilemaps/Tiles/Objects/Machines/Refrigerator.asset" afterPath="$PROJECT_DIR$/Assets/Tilemaps/Tiles/Objects/Machines/Refrigerator.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/test.unity" afterPath="$PROJECT_DIR$/Assets/test.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/GridBrush/Tilemaps.Editor.Brushes.LevelBrush.asset" afterPath="$PROJECT_DIR$/Library/GridBrush/Tilemaps.Editor.Brushes.LevelBrush.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,52 +111,114 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RegisterObject.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RegisterObject.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterObject.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LayerTile.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/LayerTile.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LevelBrushEditor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/LevelBrushEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1425">
+              <caret line="95" column="35" lean-forward="false" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectTile.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/ObjectTile.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicTile.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/BasicTile.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TilemapCheckEditor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/TilemapCheckEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImportSprites.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ImportSprites.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
-                <marker date="1511645493265" expanded="true" signature="6:63" ph="..." />
-                <marker date="1511645493265" expanded="true" signature="110:919" ph="{...}" />
-                <marker date="1511645493265" expanded="true" signature="183:917" ph="{...}" />
-                <marker date="1511645493265" expanded="true" signature="446:717" ph="{...}" />
-                <marker date="1511645493265" expanded="true" signature="562:640" ph="{...}" />
-                <marker date="1511645493265" expanded="true" signature="760:809" ph="{...}" />
-                <marker date="1511645493265" expanded="true" signature="857:911" ph="{...}" />
+                <marker date="1509895204337" expanded="false" signature="6:88" ph="..." />
+                <marker date="1509895204337" expanded="true" signature="155:2530" ph="{...}" />
+                <marker date="1509895204337" expanded="true" signature="272:406" ph="{...}" />
+                <marker date="1509895204337" expanded="true" signature="333:396" ph="{...}" />
+                <marker date="1509895204337" expanded="true" signature="460:1279" ph="{...}" />
+                <marker date="1509895204337" expanded="true" signature="653:705" ph="{...}" />
+                <marker date="1509895204337" expanded="true" signature="1405:2524" ph="{...}" />
+                <marker date="1509895204337" expanded="true" signature="1718:2229" ph="{...}" />
+                <marker date="1509895204337" expanded="true" signature="1800:2215" ph="{...}" />
+                <marker date="1509895204337" expanded="true" signature="1890:2145" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterDoor.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterDoor.cs">
+      <file leaf-file-name="PreviewSpriteBuilder.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Utils/PreviewSpriteBuilder.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="401">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
-                <marker date="1511634060638" expanded="false" signature="6:48" ph="..." />
-                <marker date="1511634060638" expanded="true" signature="95:843" ph="{...}" />
-                <marker date="1511634060638" expanded="true" signature="168:841" ph="{...}" />
-                <marker date="1511634060638" expanded="true" signature="317:596" ph="{...}" />
-                <marker date="1511634060638" expanded="true" signature="367:548" ph="{...}" />
-                <marker date="1511634060638" expanded="true" signature="639:713" ph="{...}" />
-                <marker date="1511634060638" expanded="true" signature="761:835" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterCloset.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterCloset.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1509840009577" expanded="true" signature="6:48" ph="..." />
-                <marker date="1509840009577" expanded="true" signature="95:318" ph="{...}" />
-                <marker date="1509840009577" expanded="true" signature="170:316" ph="{...}" />
-                <marker date="1509840009577" expanded="true" signature="262:310" ph="{...}" />
+                <marker date="1511653242486" expanded="false" signature="6:251" ph="..." />
+                <marker date="1511653242486" expanded="true" signature="285:4765" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="332:4763" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="474:572" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="625:704" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="772:1027" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="1083:1489" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="1279:1356" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="1575:2226" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="1677:2187" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="1832:2173" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="1962:2155" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="2030:2133" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="2301:3216" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="2392:2854" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="2613:2840" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="2706:2822" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="3297:4431" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="3444:3501" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="3878:3935" ph="{...}" />
+                <marker date="1511653242486" expanded="true" signature="4488:4757" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -97,8 +227,8 @@
       <file leaf-file-name="RegisterTile.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterTile.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="58" column="52" lean-forward="false" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="52" />
+            <state relative-caret-position="416">
+              <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
               <folding>
                 <marker date="1511630270868" expanded="false" signature="6:90" ph="..." />
                 <marker date="1511630270868" expanded="true" signature="137:1270" ph="{...}" />
@@ -118,147 +248,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LayerTile.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/LayerTile.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <folding>
-                <marker date="1511645290955" expanded="false" signature="6:122" ph="..." />
-                <marker date="1511645290955" expanded="true" signature="156:725" ph="{...}" />
-                <marker date="1511645290955" expanded="true" signature="184:276" ph="{...}" />
-                <marker date="1511645290955" expanded="true" signature="318:723" ph="{...}" />
-                <marker date="1511645290955" expanded="true" signature="661:717" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LevelBrushEditor.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/LevelBrushEditor.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="95" column="60" lean-forward="false" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
-              <folding>
-                <marker date="1511644989173" expanded="false" signature="6:232" ph="..." />
-                <marker date="1511644989173" expanded="true" signature="267:3266" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="360:3264" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="592:782" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="618:772" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="876:1069" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="964:1059" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="1180:2407" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="1495:2090" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="1558:1986" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="1746:1899" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="2129:2334" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="2214:2320" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="2452:2595" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="2502:2585" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="2694:3258" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="2740:3156" ph="{...}" />
-                <marker date="1511644989173" expanded="true" signature="2795:2896" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LevelBrush.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/LevelBrush.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="77" column="13" lean-forward="false" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-              <folding>
-                <marker date="1511634302210" expanded="false" signature="6:210" ph="..." />
-                <marker date="1511634302210" expanded="true" signature="245:3507" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="343:3505" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="440:535" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="627:723" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="812:1531" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="878:1521" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="1133:1507" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="1194:1319" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="1366:1489" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="1621:2067" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="1758:2057" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="1805:1911" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="1932:2043" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="2147:2273" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="2205:2263" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="2377:2674" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="2435:2664" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="2775:2938" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="2839:2928" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="3037:3169" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="3261:3499" ph="{...}" />
-                <marker date="1511634302210" expanded="true" signature="3332:3422" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObjectTile.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/ObjectTile.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <marker date="1511639524834" expanded="false" signature="7:166" ph="..." />
-                <marker date="1511639524834" expanded="true" signature="200:3355" ph="{...}" />
-                <marker date="1511639524834" expanded="true" signature="261:3353" ph="{...}" />
-                <marker date="1511639524834" expanded="true" signature="525:1702" ph="{...}" />
-                <marker date="1511639524834" expanded="true" signature="567:1218" ph="{...}" />
-                <marker date="1511639524834" expanded="true" signature="625:927" ph="{...}" />
-                <marker date="1511639524834" expanded="true" signature="978:1204" ph="{...}" />
-                <marker date="1511639524834" expanded="true" signature="1263:1497" ph="{...}" />
-                <marker date="1511639524834" expanded="true" signature="1576:1692" ph="{...}" />
-                <marker date="1511639524834" expanded="true" signature="1800:2537" ph="{...}" />
-                <marker date="1511639524834" expanded="true" signature="2622:3347" ph="{...}" />
-                <marker date="1511639524834" expanded="true" signature="2659:3277" ph="{...}" />
-                <marker date="1511639524834" expanded="true" signature="3042:3182" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicTile.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/BasicTile.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <marker date="1511645276067" expanded="false" signature="6:46" ph="..." />
-                <marker date="1511645276067" expanded="true" signature="80:797" ph="{...}" />
-                <marker date="1511645276067" expanded="true" signature="130:795" ph="{...}" />
-                <marker date="1511645276067" expanded="true" signature="320:503" ph="{...}" />
-                <marker date="1511645276067" expanded="true" signature="414:493" ph="{...}" />
-                <marker date="1511645276067" expanded="true" signature="545:594" ph="{...}" />
-                <marker date="1511645276067" expanded="true" signature="633:687" ph="{...}" />
-                <marker date="1511645276067" expanded="true" signature="718:789" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MetaTile.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/MetaTile.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="405">
               <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-              <folding>
-                <marker date="1511191912408" expanded="false" signature="6:148" ph="..." />
-                <marker date="1511191912408" expanded="true" signature="182:2506" ph="{...}" />
-                <marker date="1511191912408" expanded="true" signature="224:2504" ph="{...}" />
-                <marker date="1511191912408" expanded="true" signature="566:1953" ph="{...}" />
-                <marker date="1511191912408" expanded="true" signature="947:1794" ph="{...}" />
-                <marker date="1511191912408" expanded="true" signature="1083:1476" ph="{...}" />
-                <marker date="1511191912408" expanded="true" signature="1296:1457" ph="{...}" />
-                <marker date="1511191912408" expanded="true" signature="1497:1780" ph="{...}" />
-                <marker date="1511191912408" expanded="true" signature="1642:1761" ph="{...}" />
-                <marker date="1511191912408" expanded="true" signature="2040:2181" ph="{...}" />
-                <marker date="1511191912408" expanded="true" signature="2114:2171" ph="{...}" />
-                <marker date="1511191912408" expanded="true" signature="2231:2498" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -291,13 +286,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/LevelBrush.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/unitystation/Assets/Tilemaps/Scripts/Tiles/MetaTile.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/LevelBrushEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8DDA3E33-2B16-497D-8634-252EEEAC0F12/09/57ae7531/GridBrush.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/CreateTilesMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/ObjectTile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/ConnectedTile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/SimpleTile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/MatrixCheckEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/TilemapCheckEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Utils/TileList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ACA5A92C-578B-4550-940A-DA0E8D8A8D7A/77/6f291ae9/Quaternion.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterPlayer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -311,6 +307,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8DDA3E33-2B16-497D-8634-252EEEAC0F12/91/56e67d98/GridPaintPaletteWindow.cs" root0="SKIP_INSPECTION" />
     <setting file="file://E:/unitystation/Assets/scripts/Data/DmiIconData.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/LayerTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/unitystation/Assets/Tilemaps/Scripts/Tiles/ObjectTile.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/Utils/TileBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterTile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Layers/ObjectLayer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -329,7 +326,6 @@
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/ConnectedTile.cs" />
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Layers/Layer.cs" />
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/GenericTile.cs" />
-        <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Utils/PreviewSpriteBuilder.cs" />
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Utils/ObjectList2.cs" />
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterItem.cs" />
@@ -337,7 +333,6 @@
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Utils/ObjectList.cs" />
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Utils/TileList.cs" />
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterTile.cs" />
-        <option value="$PROJECT_DIR$/Assets/Tilemaps/Editor/MatrixCheckEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Layers/ObjectLayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/LevelBrush.cs" />
@@ -351,7 +346,9 @@
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/Utils/PreviewTile.cs" />
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/BasicTile.cs" />
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/LayerTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tilemaps/Editor/MatrixCheckEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Utils/PreviewSpriteBuilder.cs" />
       </list>
     </option>
   </component>
@@ -362,10 +359,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="527" />
-    <option name="y" value="-8" />
-    <option name="width" value="1482" />
-    <option name="height" value="996" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-44" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -426,70 +423,6 @@
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Tilemaps" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Behaviours" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="unitystation_tilemap (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Tilemaps" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Behaviours" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Objects" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="unitystation_tilemap (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Tilemaps" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Tiles" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="unitystation_tilemap (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp-Editor" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="unitystation_tilemap (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp-Editor" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="unitystation_tilemap (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp-Editor" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Tilemaps" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="unitystation_tilemap (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp-Editor" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Tilemaps" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Editor" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="unitystation_tilemap (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp-Editor" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Tilemaps" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Editor" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Brushes" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="unitystation_tilemap (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp-Editor" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Tilemaps" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Editor" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Brushes" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Utils" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
@@ -518,7 +451,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" pid="1608" />
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" pid="2124" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -553,7 +486,8 @@
       <workItem from="1511480028963" duration="3776000" />
       <workItem from="1511545864567" duration="17981000" />
       <workItem from="1511611060626" duration="15468000" />
-      <workItem from="1511643105918" duration="2829000" />
+      <workItem from="1511643105918" duration="4193000" />
+      <workItem from="1511651675670" duration="2128000" />
     </task>
     <task id="LOCAL-00001" summary="Added PreviewTile to brush">
       <created>1510703372824</created>
@@ -583,11 +517,25 @@
       <option name="project" value="LOCAL" />
       <updated>1511640703302</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tile palette system 1.0">
+      <created>1511646157182</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1511646157182</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Tile palette system 1.0">
+      <created>1511646712292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1511646712292</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148893000" />
+    <option name="totallyTimeSpent" value="152385000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -599,7 +547,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-1928" y="-44" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -610,17 +558,17 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20892857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1828125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3504929" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22124863" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22057264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3504929" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -638,25 +586,26 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="107" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Utils/PreviewSpriteBuilder.cs</url>
+          <line>34</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Tilemaps/Scripts/Utils/PreviewSpriteBuilder.cs">
+            <startOffsets>
+              <startOffset value="918" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="953" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="112" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/MatrixCheckEditor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="86" column="21" lean-forward="false" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Layers/MetaTileMap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Layers/ObjectLayer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -776,20 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ImportSprites.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Utils/PreviewSpriteBuilder.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Layers/Layer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -834,14 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/MatrixCheckEditor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" column="33" lean-forward="false" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/Utils/TileBuilder.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -880,7 +807,6 @@
           <caret line="77" column="13" lean-forward="false" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
           <folding>
             <marker date="1511634302210" expanded="false" signature="6:210" ph="..." />
-            <marker date="1511634302210" expanded="true" signature="245:3507" ph="{...}" />
             <marker date="1511634302210" expanded="true" signature="343:3505" ph="{...}" />
             <marker date="1511634302210" expanded="true" signature="440:535" ph="{...}" />
             <marker date="1511634302210" expanded="true" signature="627:723" ph="{...}" />
@@ -906,10 +832,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterCloset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterDoor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/ObjectTile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/Utils/PreviewTile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <marker date="1511651394697" expanded="false" signature="6:76" ph="..." />
+            <marker date="1511651394697" expanded="true" signature="160:473" ph="{...}" />
+            <marker date="1511651394697" expanded="true" signature="388:467" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/LevelBrushEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="35" lean-forward="false" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/BasicTile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/MetaTile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/LayerTile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/unitystation/Assets/Tilemaps/Scripts/Tiles/MetaTile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/unitystation/Assets/Tilemaps/Scripts/Tiles/ObjectTile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/TilemapCheckEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Editor/ImportSprites.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <marker date="1509895204337" expanded="false" signature="6:88" ph="..." />
+            <marker date="1509895204337" expanded="true" signature="155:2530" ph="{...}" />
+            <marker date="1509895204337" expanded="true" signature="272:406" ph="{...}" />
+            <marker date="1509895204337" expanded="true" signature="333:396" ph="{...}" />
+            <marker date="1509895204337" expanded="true" signature="460:1279" ph="{...}" />
+            <marker date="1509895204337" expanded="true" signature="653:705" ph="{...}" />
+            <marker date="1509895204337" expanded="true" signature="1405:2524" ph="{...}" />
+            <marker date="1509895204337" expanded="true" signature="1718:2229" ph="{...}" />
+            <marker date="1509895204337" expanded="true" signature="1800:2215" ph="{...}" />
+            <marker date="1509895204337" expanded="true" signature="1890:2145" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterTile.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="58" column="52" lean-forward="false" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="52" />
+        <state relative-caret-position="416">
+          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           <folding>
             <marker date="1511630270868" expanded="false" signature="6:90" ph="..." />
             <marker date="1511630270868" expanded="true" signature="137:1270" ph="{...}" />
@@ -928,161 +973,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterCloset.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Utils/PreviewSpriteBuilder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="401">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <marker date="1509840009577" expanded="true" signature="6:48" ph="..." />
-            <marker date="1509840009577" expanded="true" signature="95:318" ph="{...}" />
-            <marker date="1509840009577" expanded="true" signature="170:316" ph="{...}" />
-            <marker date="1509840009577" expanded="true" signature="262:310" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterDoor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding>
-            <marker date="1511634060638" expanded="false" signature="6:48" ph="..." />
-            <marker date="1511634060638" expanded="true" signature="95:843" ph="{...}" />
-            <marker date="1511634060638" expanded="true" signature="168:841" ph="{...}" />
-            <marker date="1511634060638" expanded="true" signature="317:596" ph="{...}" />
-            <marker date="1511634060638" expanded="true" signature="367:548" ph="{...}" />
-            <marker date="1511634060638" expanded="true" signature="639:713" ph="{...}" />
-            <marker date="1511634060638" expanded="true" signature="761:835" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/ObjectTile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <marker date="1511639524834" expanded="false" signature="7:166" ph="..." />
-            <marker date="1511639524834" expanded="true" signature="200:3355" ph="{...}" />
-            <marker date="1511639524834" expanded="true" signature="261:3353" ph="{...}" />
-            <marker date="1511639524834" expanded="true" signature="525:1702" ph="{...}" />
-            <marker date="1511639524834" expanded="true" signature="567:1218" ph="{...}" />
-            <marker date="1511639524834" expanded="true" signature="625:927" ph="{...}" />
-            <marker date="1511639524834" expanded="true" signature="978:1204" ph="{...}" />
-            <marker date="1511639524834" expanded="true" signature="1263:1497" ph="{...}" />
-            <marker date="1511639524834" expanded="true" signature="1576:1692" ph="{...}" />
-            <marker date="1511639524834" expanded="true" signature="1800:2537" ph="{...}" />
-            <marker date="1511639524834" expanded="true" signature="2622:3347" ph="{...}" />
-            <marker date="1511639524834" expanded="true" signature="2659:3277" ph="{...}" />
-            <marker date="1511639524834" expanded="true" signature="3042:3182" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/Utils/PreviewTile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <marker date="1511644993948" expanded="false" signature="6:76" ph="..." />
-            <marker date="1511644993948" expanded="true" signature="117:405" ph="{...}" />
-            <marker date="1511644993948" expanded="true" signature="160:403" ph="{...}" />
-            <marker date="1511644993948" expanded="true" signature="318:397" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Editor/Brushes/LevelBrushEditor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="95" column="60" lean-forward="false" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
-          <folding>
-            <marker date="1511644989173" expanded="false" signature="6:232" ph="..." />
-            <marker date="1511644989173" expanded="true" signature="267:3266" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="360:3264" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="592:782" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="618:772" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="876:1069" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="964:1059" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="1180:2407" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="1495:2090" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="1558:1986" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="1746:1899" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="2129:2334" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="2214:2320" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="2452:2595" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="2502:2585" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="2694:3258" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="2740:3156" ph="{...}" />
-            <marker date="1511644989173" expanded="true" signature="2795:2896" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/BasicTile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <marker date="1511645276067" expanded="false" signature="6:46" ph="..." />
-            <marker date="1511645276067" expanded="true" signature="80:797" ph="{...}" />
-            <marker date="1511645276067" expanded="true" signature="130:795" ph="{...}" />
-            <marker date="1511645276067" expanded="true" signature="320:503" ph="{...}" />
-            <marker date="1511645276067" expanded="true" signature="414:493" ph="{...}" />
-            <marker date="1511645276067" expanded="true" signature="545:594" ph="{...}" />
-            <marker date="1511645276067" expanded="true" signature="633:687" ph="{...}" />
-            <marker date="1511645276067" expanded="true" signature="718:789" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/MetaTile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding>
-            <marker date="1511191912408" expanded="false" signature="6:148" ph="..." />
-            <marker date="1511191912408" expanded="true" signature="182:2506" ph="{...}" />
-            <marker date="1511191912408" expanded="true" signature="224:2504" ph="{...}" />
-            <marker date="1511191912408" expanded="true" signature="566:1953" ph="{...}" />
-            <marker date="1511191912408" expanded="true" signature="947:1794" ph="{...}" />
-            <marker date="1511191912408" expanded="true" signature="1083:1476" ph="{...}" />
-            <marker date="1511191912408" expanded="true" signature="1296:1457" ph="{...}" />
-            <marker date="1511191912408" expanded="true" signature="1497:1780" ph="{...}" />
-            <marker date="1511191912408" expanded="true" signature="1642:1761" ph="{...}" />
-            <marker date="1511191912408" expanded="true" signature="2040:2181" ph="{...}" />
-            <marker date="1511191912408" expanded="true" signature="2114:2171" ph="{...}" />
-            <marker date="1511191912408" expanded="true" signature="2231:2498" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Tiles/LayerTile.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <marker date="1511645290955" expanded="false" signature="6:122" ph="..." />
-            <marker date="1511645290955" expanded="true" signature="156:725" ph="{...}" />
-            <marker date="1511645290955" expanded="true" signature="184:276" ph="{...}" />
-            <marker date="1511645290955" expanded="true" signature="318:723" ph="{...}" />
-            <marker date="1511645290955" expanded="true" signature="661:717" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Tilemaps/Scripts/Behaviours/Objects/RegisterObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <marker date="1511645493265" expanded="true" signature="6:63" ph="..." />
-            <marker date="1511645493265" expanded="true" signature="110:919" ph="{...}" />
-            <marker date="1511645493265" expanded="true" signature="183:917" ph="{...}" />
-            <marker date="1511645493265" expanded="true" signature="446:717" ph="{...}" />
-            <marker date="1511645493265" expanded="true" signature="562:640" ph="{...}" />
-            <marker date="1511645493265" expanded="true" signature="760:809" ph="{...}" />
-            <marker date="1511645493265" expanded="true" signature="857:911" ph="{...}" />
+            <marker date="1511653242486" expanded="false" signature="6:251" ph="..." />
+            <marker date="1511653242486" expanded="true" signature="285:4765" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="332:4763" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="474:572" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="625:704" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="772:1027" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="1083:1489" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="1279:1356" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="1575:2226" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="1677:2187" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="1832:2173" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="1962:2155" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="2030:2133" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="2301:3216" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="2392:2854" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="2613:2840" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="2706:2822" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="3297:4431" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="3444:3501" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="3878:3935" ph="{...}" />
+            <marker date="1511653242486" expanded="true" signature="4488:4757" ph="{...}" />
           </folding>
         </state>
       </provider>
