@@ -4,23 +4,25 @@ using System.Linq;
 using System.Reflection;
 using Tilemaps.Scripts.Tiles;
 using UnityEditor;
+using UnityEditor.MemoryProfiler;
 using UnityEditorInternal;
 using UnityEngine;
+using UnityEngine.Timeline;
 
 namespace Tilemaps.Scripts.Utils
 {
     public static class PreviewSpriteBuilder
     {
-        private const string previewPath = "Assets/Textures/Resources/TilePreviews/";
+        private const string previewPath = "Assets/Textures/TilePreviews";
         
         public static Sprite LoadSprite(Object obj)
         {
-            return AssetDatabase.LoadAssetAtPath<Sprite>(GetFilePath(obj.name));
+            return AssetDatabase.LoadAssetAtPath<Sprite>(GetSpritePath(obj));
         }
 
         public static void DeleteSprite(Object obj)
         {
-            AssetDatabase.DeleteAsset(GetFilePath(obj.name));
+            AssetDatabase.DeleteAsset(GetSpritePath(obj));
         }
         
         public static Sprite Create(GameObject gameObject)
@@ -32,7 +34,7 @@ namespace Tilemaps.Scripts.Utils
 
             var sprite = MergeSprites(sprites);
 
-            return SaveSpriteToEditorPath(sprite, gameObject.name);
+            return SaveSpriteToEditorPath(sprite, gameObject);
         }
 
         public static Sprite Create(MetaTile metaTile)
@@ -49,7 +51,7 @@ namespace Tilemaps.Scripts.Utils
             
             var sprite = MergeSprites(sprites);
 
-            return SaveSpriteToEditorPath(sprite, metaTile.name);
+            return SaveSpriteToEditorPath(sprite, metaTile);
         }
 
         private static IReadOnlyList<Sprite> GetObjectSprites(GameObject gameObject)
@@ -102,9 +104,9 @@ namespace Tilemaps.Scripts.Utils
             return Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f), old.pixelsPerUnit);
         }
 
-        private static Sprite SaveSpriteToEditorPath(Sprite sprite, string filename)
+        private static Sprite SaveSpriteToEditorPath(Sprite sprite, Object obj)
         {
-            var path = GetFilePath(filename);
+            var path = GetSpritePath(obj);
             
             var dir = Path.GetDirectoryName(path);
 
@@ -140,9 +142,14 @@ namespace Tilemaps.Scripts.Utils
             return AssetDatabase.LoadAssetAtPath<Sprite>(path);
         }
 
-        private static string GetFilePath(string filename)
+        private static string GetSpritePath(Object obj)
         {
-            return previewPath + filename + ".png";
+            var assetPath = AssetDatabase.GetAssetPath(obj);
+            assetPath = Path.ChangeExtension(assetPath, ".png");
+            
+            assetPath = assetPath?.Replace("Assets", previewPath);
+            
+            return assetPath;
         }
     }
 }

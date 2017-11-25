@@ -69,9 +69,9 @@ namespace Tilemaps.Scripts.Behaviours.Layers
         {
             foreach (var layer in layers.Values)
             {
-                if (layer.LayerType <= tile.LayerType)
+                if (layer.LayerType < tile.LayerType)
                 {
-                    layers[layer.LayerType].SetPreviewTile(position, tile, Matrix4x4.identity);
+                    layers[layer.LayerType].SetPreviewTile(position, LayerTile.EmptyTile, Matrix4x4.identity);
                 }
             }
             
@@ -90,7 +90,7 @@ namespace Tilemaps.Scripts.Behaviours.Layers
         {
             foreach (var layer in layers.Values)
             {
-                if (layer.LayerType < refLayer)
+                if (layer.LayerType < refLayer && !(refLayer == LayerType.Objects && layer.LayerType == LayerType.Floors))
                 {
                     layer.RemoveTile(position);
                 }

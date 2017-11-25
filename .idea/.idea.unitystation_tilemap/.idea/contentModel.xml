@@ -43,6 +43,9 @@
             </e>
             <e p="CreateTilesMenu.cs" t="Include" />
             <e p="MatrixCheckEditor.cs" t="Include" />
+            <e p="Utils" t="Include">
+              <e p="TileBuilder.cs" t="Include" />
+            </e>
           </e>
           <e p="Scripts" t="Include">
             <e p="Behaviours" t="Include">
@@ -56,6 +59,8 @@
                 <e p="RegisterDoor.cs" t="Include" />
                 <e p="RegisterItem.cs" t="Include" />
                 <e p="RegisterObject.cs" t="Include" />
+                <e p="RegisterPlayer.cs" t="Include" />
+                <e p="RegisterTile.cs" t="Include" />
               </e>
             </e>
             <e p="Tiles" t="Include">
@@ -68,10 +73,9 @@
               <e p="SimpleTile.cs" t="Include" />
             </e>
             <e p="Utils" t="Include">
-              <e p="ItemList.cs" t="Include" />
-              <e p="ObjectList.cs" t="Include" />
               <e p="PreviewSpriteBuilder.cs" t="Include" />
               <e p="RendererComparer.cs" t="Include" />
+              <e p="TileList.cs" t="Include" />
             </e>
           </e>
         </e>

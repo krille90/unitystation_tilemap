@@ -14,3 +14,6 @@ MonoBehaviour:
   layerType: 1
   RequiredTiles: []
   Object: {fileID: 1000011622113908, guid: 16c35e6563cb6c242a77a43cf1e49fb1, type: 2}
+  Rotatable: 0
+  KeepOrientation: 0
+  Offset: 0

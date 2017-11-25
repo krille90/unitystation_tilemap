@@ -64,6 +64,11 @@ namespace Tilemaps.Scripts.Tiles
             go.transform.rotation = tilemap.transform.rotation * transformMatrix.rotation;
 
             go.name = Object.name;
+
+            var registerObject = go.GetComponent<RegisterObject>() ?? go.AddComponent<RegisterObject>();
+
+            registerObject.Offset = Vector3Int.RoundToInt(-offset);
+
             go.SetActive(true);
         }
 

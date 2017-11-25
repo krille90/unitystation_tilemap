@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   closed: 1
-  restricted: 1
+  OneDirectionRestricted: 1
 --- !u!212 &212717538148874048
 SpriteRenderer:
   m_ObjectHideFlags: 1

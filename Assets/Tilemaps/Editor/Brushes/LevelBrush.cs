@@ -94,7 +94,6 @@ namespace Tilemaps.Editor.Brushes
         private void PlaceLayerTile(MetaTileMap metaTileMap, Vector3Int position, LayerTile tile)
         {
             metaTileMap.RemoveTile(position, tile.LayerType);
-
             SetTile(metaTileMap, position, tile);
         }
 

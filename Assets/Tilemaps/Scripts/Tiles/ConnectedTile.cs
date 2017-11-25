@@ -99,14 +99,6 @@ namespace Tilemaps.Scripts.Tiles
             }
         }
         
-        public override void RefreshTile(Vector3Int position, ITilemap tilemap)
-        {
-            foreach (var p in new BoundsInt(-1, -1, 0, 3, 3, 1).allPositionsWithin)
-            {
-                tilemap.RefreshTile(position + p);
-            }
-        }
-        
         private bool HasSameTile(Vector3Int position, ITilemap tilemap)
         {
             var tile = tilemap.GetTile(position);

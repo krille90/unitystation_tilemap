@@ -1,4 +1,4 @@
-﻿using System.IO;
+﻿using Tilemaps.Editor.Utils;
 using Tilemaps.Scripts.Tiles;
 using UnityEditor;
 using UnityEngine;
@@ -7,137 +7,78 @@ namespace Tilemaps.Editor
 {
     public class CreateTilesMenu : MonoBehaviour
     {
-        #region Structures
-
-        [MenuItem("Assets/Create/Tiles/Connected/Wall", false, 0)]
+        [MenuItem("Assets/Create/Tiles/General/Simple Tile", false, 0)]
+        public static void CreateSimpleObject()
+        {
+            TileBuilder.CreateTile<SimpleTile>(LayerType.None, "SimpleTile");
+        }
+        
+        [MenuItem("Assets/Create/Tiles/General/Connected Tile", false, 0)]
+        public static void CreateConnectedTile()
+        {
+            TileBuilder.CreateTile<ConnectedTile>(LayerType.None, "ConnectedTile");
+        }
+        
+        [MenuItem("Assets/Create/Tiles/General/Meta Tile", false, 0)]
+        public static void CreateMetaTile()
+        {
+            var tile = ScriptableObject.CreateInstance<MetaTile>();
+            TileBuilder.CreateAsset(tile, "MetaTile");
+        }
+        
+        [MenuItem("Assets/Create/Tiles/Floor", false, 0)]
+        public static void CreateFloor()
+        {
+            TileBuilder.CreateTile<SimpleTile>(LayerType.Floors, "FloorTile");
+        }
+        
+        [MenuItem("Assets/Create/Tiles/Wall", false, 0)]
         public static void CreateWallConnected()
         {
-            var tile = CreateTile<ConnectedTile>(LayerType.Structures);
+            var tile = TileBuilder.CreateTile<ConnectedTile>(LayerType.Structures);
             tile.texturePath = "Walls";
             tile.connectCategory = ConnectCategory.Walls;
             tile.connectType = ConnectType.ToSameCategory;
 
-            CreateAsset(tile, "WallTile");
+            TileBuilder.CreateAsset(tile, "WallTile");
         }
 
-        [MenuItem("Assets/Create/Tiles/Connected/Window", false, 0)]
+        [MenuItem("Assets/Create/Tiles/Window", false, 0)]
         public static void CreateWindow()
         {
-            var tile = CreateTile<ConnectedTile>(LayerType.Structures);
+            var tile = TileBuilder.CreateTile<ConnectedTile>(LayerType.Structures);
             tile.texturePath = "Windows";
             tile.connectCategory = ConnectCategory.Windows;
             tile.connectType = ConnectType.ToSameCategory;
 
-            CreateAsset(tile, "WindowTile");
+            TileBuilder.CreateAsset(tile, "WindowTile");
         }
 
-        #endregion
-
-        #region Objects
-        
-        [MenuItem("Assets/Create/Tiles/Simple Object", false, 0)]
-        public static void CreateSimpleObject()
+        [MenuItem("Assets/Create/Tiles/Table", false, 0)]
+        public static void CreateTable()
         {
-            CreateTile<SimpleTile>(LayerType.Objects, "SimpleObjectTile");
+            var tile = TileBuilder.CreateTile<ConnectedTile>(LayerType.Objects);
+            tile.texturePath = "Tables";
+            tile.connectCategory = ConnectCategory.Tables;
+            tile.connectType = ConnectType.ToSameCategory;
+
+            TileBuilder.CreateAsset(tile, "TableTile");
         }
 
         [MenuItem("Assets/Create/Tiles/Object", false, 0)]
         public static void CreateObject()
         {
-            CreateTile<ObjectTile>(LayerType.Objects, "ObjectTile");
+            TileBuilder.CreateTile<ObjectTile>(LayerType.Objects, "ObjectTile");
         }
 
-        [MenuItem("Assets/Create/Tiles/Door", false, 0)]
-        public static void CreateDoor()
+        [MenuItem("Assets/Create/Tiles/Wall Mount", false, 0)]
+        public static void CreateWallMount()
         {
-            var tile = CreateTile<ObjectTile>(LayerType.Objects);
-
-            CreateAsset(tile, "DoorTile");
-        }
-
-        [MenuItem("Assets/Create/Tiles/Connected/Table", false, 0)]
-        public static void CreateTable()
-        {
-            var tile = CreateTile<ConnectedTile>(LayerType.Objects);
-            tile.texturePath = "Tables";
-            tile.connectCategory = ConnectCategory.Tables;
-            tile.connectType = ConnectType.ToSameCategory;
-
-            CreateAsset(tile, "TableTile");
-        }
-
-        [MenuItem("Assets/Create/Tiles/Item", false, 0)]
-        public static void CreateItem()
-        {
-            var tile = CreateTile<ObjectTile>(LayerType.Objects);
-
-            CreateAsset(tile, "ItemTile");
-        }
-
-        #endregion
-
-        #region Floors
-
-        [MenuItem("Assets/Create/Tiles/Floor", false, 0)]
-        public static void CreateFloor()
-        {
-            CreateTile<SimpleTile>(LayerType.Floors, "FloorTile");
-        }
-
-        [MenuItem("Assets/Create/Tiles/Connected/Floor", false, 0)]
-        public static void CreateFloorConnected()
-        {
-            var tile = CreateTile<ConnectedTile>(LayerType.Floors);
-            tile.texturePath = "Floors";
-            tile.connectCategory = ConnectCategory.Floors;
-
-            CreateAsset(tile, "FloorTile");
-        }
-
-        #endregion
-
-        [MenuItem("Assets/Create/Tiles/MetaTile", false, 0)]
-        public static void CreateMetaTile()
-        {
-            var tile = ScriptableObject.CreateInstance<MetaTile>();
-            CreateAsset(tile, "MetaTile");
-        }
-
-        private static void CreateTile<T>(LayerType layer, string tileName) where T : LayerTile
-        {
-            var tile = ScriptableObject.CreateInstance<T>();
-            tile.LayerType = layer;
-
-            CreateAsset(tile, tileName);
-        }
-
-        private static T CreateTile<T>(LayerType layer) where T : LayerTile
-        {
-            var tile = ScriptableObject.CreateInstance<T>();
-            tile.LayerType = layer;
-            return tile;
-        }
-
-        private static void CreateAsset(Object asset, string tileName)
-        {
-            var assetPath = Path.Combine(GetPath(), tileName + ".asset");
-            AssetDatabase.CreateAsset(asset, assetPath);
-        }
-
-        private static string GetPath()
-        {
-            string path = AssetDatabase.GetAssetPath(Selection.activeObject);
-
-            if (string.IsNullOrEmpty(path))
-            {
-                path = "Assets";
-            }
-            else if (Path.GetExtension(path) != "")
-            {
-                path = path.Replace(Path.GetFileName(path), "");
-            }
-
-            return path;
+            var tile = TileBuilder.CreateTile<ObjectTile>(LayerType.Objects);
+            tile.Rotatable = true;
+            tile.Offset = true;
+            
+            TileBuilder.CreateAsset(tile, "WallMountTile");
         }
     }
 }

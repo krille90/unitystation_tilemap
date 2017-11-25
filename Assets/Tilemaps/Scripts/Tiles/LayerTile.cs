@@ -14,8 +14,11 @@ namespace Tilemaps.Scripts.Tiles
         None
     }
 
-    public abstract class LayerTile : GenericTile
+    public class LayerTile : GenericTile
     {
+        private static LayerTile _emptyTile;
+        public static LayerTile EmptyTile => _emptyTile ?? (_emptyTile = CreateInstance<LayerTile>());
+
         public LayerType layerType;
 
         public virtual LayerType LayerType

@@ -37,6 +37,9 @@ namespace Tilemaps.Editor.Brushes
 
         public override void PaintPreview(GridLayout gridLayout, GameObject brushTarget, Vector3Int position)
         {
+            if (brushTarget == null)
+                return;
+            
             var metaTilemap = brushTarget.GetComponent<MetaTileMap>();
 
             if (!metaTilemap)
@@ -49,7 +52,13 @@ namespace Tilemaps.Editor.Brushes
                 if (tile != _currentPreviewTile)
                 {
                     var layerTile = tile as LayerTile;
-                    brush.cells[0].matrix = layerTile.Rotate(Matrix4x4.identity, true);
+
+                    var objectTile = tile as ObjectTile;
+                    if (objectTile && objectTile.Offset)
+                    {
+                        brush.cells[0].matrix = Matrix4x4.TRS(Vector3.up, Quaternion.identity, Vector3.one);
+                    }
+                    
                     _currentPreviewTile = tile;
                 }
                 

@@ -108,7 +108,7 @@ TilemapRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5f493ce579634df46b12eb980d975ff1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -148,7 +148,7 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
       m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 3
+      m_TileFlags: 0
       m_ColliderType: 0
   - first: {x: -6, y: -2, z: 0}
     second:
@@ -157,7 +157,7 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
       m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 3
+      m_TileFlags: 0
       m_ColliderType: 0
   - first: {x: -6, y: -1, z: 0}
     second:
@@ -166,7 +166,7 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
       m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 3
+      m_TileFlags: 0
       m_ColliderType: 0
   - first: {x: -5, y: -1, z: 0}
     second:
@@ -175,7 +175,7 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 2
       m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 3
+      m_TileFlags: 0
       m_ColliderType: 0
   m_AnimatedTiles: {}
   m_TileAssetArray:
@@ -197,13 +197,13 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: b394030b519259a41b26d994dab6dc89, type: 3}
+    m_Data: {fileID: 21300000, guid: 460c221c4a04d21449de20d82e09522f, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 6822f6182c444344e836c35c59985123, type: 3}
+    m_Data: {fileID: 21300000, guid: 89d9e840f526f83468b02613f0405cd5, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 086e8bcfe45f80146b8536284e250437, type: 3}
+    m_Data: {fileID: 21300000, guid: 52567126193747c43b4e120475dbca0f, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 9a0fac32c62452948a632d75acdb10f6, type: 3}
+    m_Data: {fileID: 21300000, guid: f712c500452c99d419e2927e28111017, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 4
     m_Data:

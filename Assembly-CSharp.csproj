@@ -65,6 +65,8 @@
     <Compile Include="Assets\Tilemaps\Scripts\Behaviours\Objects\RegisterDoor.cs" />
     <Compile Include="Assets\Tilemaps\Scripts\Behaviours\Objects\RegisterItem.cs" />
     <Compile Include="Assets\Tilemaps\Scripts\Behaviours\Objects\RegisterObject.cs" />
+    <Compile Include="Assets\Tilemaps\Scripts\Behaviours\Objects\RegisterPlayer.cs" />
+    <Compile Include="Assets\Tilemaps\Scripts\Behaviours\Objects\RegisterTile.cs" />
     <Compile Include="Assets\Tilemaps\Scripts\Tiles\BasicTile.cs" />
     <Compile Include="Assets\Tilemaps\Scripts\Tiles\ConnectedTile.cs" />
     <Compile Include="Assets\Tilemaps\Scripts\Tiles\GenericTile.cs" />
@@ -72,10 +74,9 @@
     <Compile Include="Assets\Tilemaps\Scripts\Tiles\MetaTile.cs" />
     <Compile Include="Assets\Tilemaps\Scripts\Tiles\ObjectTile.cs" />
     <Compile Include="Assets\Tilemaps\Scripts\Tiles\SimpleTile.cs" />
-    <Compile Include="Assets\Tilemaps\Scripts\Utils\ItemList.cs" />
-    <Compile Include="Assets\Tilemaps\Scripts\Utils\ObjectList.cs" />
     <Compile Include="Assets\Tilemaps\Scripts\Utils\PreviewSpriteBuilder.cs" />
     <Compile Include="Assets\Tilemaps\Scripts\Utils\RendererComparer.cs" />
+    <Compile Include="Assets\Tilemaps\Scripts\Utils\TileList.cs" />
     <Reference Include="UnityEngine.UI">
       <HintPath>E:/Program Files/Unity2017/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>

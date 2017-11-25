@@ -108,7 +108,7 @@ TilemapRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5f493ce579634df46b12eb980d975ff1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -148,7 +148,7 @@ Tilemap:
       m_TileMatrixIndex: 0
       m_TileColorIndex: 1
       m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 3
+      m_TileFlags: 0
       m_ColliderType: 0
   - first: {x: -3, y: -2, z: 0}
     second:
@@ -171,7 +171,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 261c95d16b34285488152c60387e4bb1, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 15968a1ac2a72784b94fee3a4126e8d9, type: 3}
+    m_Data: {fileID: 21300000, guid: 2da75ffd0733b1b4c988d0bac0645a07, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 2
     m_Data:

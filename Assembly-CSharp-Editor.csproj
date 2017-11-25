@@ -57,6 +57,7 @@
     <Compile Include="Assets\Tilemaps\Editor\Brushes\Utils\PreviewTile.cs" />
     <Compile Include="Assets\Tilemaps\Editor\CreateTilesMenu.cs" />
     <Compile Include="Assets\Tilemaps\Editor\MatrixCheckEditor.cs" />
+    <Compile Include="Assets\Tilemaps\Editor\Utils\TileBuilder.cs" />
     <Reference Include="UnityEngine.UI">
       <HintPath>E:/Program Files/Unity2017/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>

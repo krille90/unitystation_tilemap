@@ -7,20 +7,28 @@ namespace Tilemaps.Scripts.Behaviours.Objects
     public class RegisterDoor : RegisterObject
     {
         public bool closed = true;
-
-        public override bool IsPassable(Vector3Int origin)
+        public bool OneDirectionRestricted;
+        
+        public override bool IsPassable(Vector3Int to)
         {
-            return !closed || base.IsPassable(origin);
+            if (OneDirectionRestricted)
+            {
+                var v = Vector3Int.RoundToInt(transform.localRotation * Vector3.down);
+                
+                return !(to-position).Equals(v);
+            }
+            
+            return true;
         }
 
         public override bool IsPassable()
         {
-            return !closed;
+            return OneDirectionRestricted || !closed;
         }
 
         public override bool IsAtmosPassable()
         {
-            return !closed;
+            return OneDirectionRestricted || !closed;
         }
     }
 }

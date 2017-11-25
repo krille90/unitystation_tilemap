@@ -1,57 +1,24 @@
-﻿using Tilemaps.Scripts.Behaviours.Layers;
-using Tilemaps.Scripts.Utils;
+﻿using System.Runtime.Remoting;
 using UnityEngine;
 
 namespace Tilemaps.Scripts.Behaviours.Objects
 {
     [ExecuteInEditMode]
-    public class RegisterObject : MonoBehaviour
+    public class RegisterObject : RegisterTile
     {
-        private ObjectLayer layer;
-
-        protected Vector3Int position;
-
-        public bool restricted;
-
-        private void Start()
-        {
-            position = Vector3Int.FloorToInt(transform.localPosition);
-            layer = transform.parent.GetComponent<ObjectLayer>();
-            
-            layer.Objects.Replace(position, this);
-        }
-    
-        private void OnEnable()
-        {
-            // In case of recompilation and Start doesn't get called
-            layer?.Objects.Replace(position, this);
-        }
-
-        public void OnDestroy()
-        {
-            layer?.Objects.Remove(position);
-        }
+        //[HideInInspector]
+        public Vector3Int Offset = Vector3Int.zero;
         
-        public virtual bool IsPassable(Vector3Int origin)
+        protected override void OnAddTile(Vector3Int oldPosition, Vector3Int newPosition)
         {
-            if (restricted)
+            var obj = layer?.Objects.GetFirst<RegisterObject>(newPosition);
+
+            if (obj != null)
             {
-                var v = Vector3Int.RoundToInt(transform.localRotation * Vector3.down);
-                
-                return !(origin-position).Equals(v);
+                DestroyImmediate(obj.gameObject);
             }
             
-            return IsPassable();
-        }
-
-        public virtual bool IsPassable()
-        {
-            return true;
-        }
-
-        public virtual bool IsAtmosPassable()
-        {
-            return true;
+            base.OnAddTile(oldPosition, newPosition);
         }
     }
 }
