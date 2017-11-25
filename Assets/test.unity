@@ -431,8 +431,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Offset: {x: 0, y: 0, z: 0}
-  Passable: 0
-  AtmosPassable: 0
   closed: 1
   OneDirectionRestricted: 0
 --- !u!61 &348063083
@@ -912,8 +910,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Offset: {x: 0, y: -1, z: 0}
-  Passable: 0
-  AtmosPassable: 0
 --- !u!61 &687202825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -985,8 +981,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Offset: {x: 0, y: 0, z: 0}
-  Passable: 0
-  AtmosPassable: 0
   closed: 1
   OneDirectionRestricted: 0
 --- !u!61 &735925128
@@ -1196,8 +1190,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Offset: {x: 0, y: 0, z: 0}
-  Passable: 0
-  AtmosPassable: 1
 --- !u!61 &811267731
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2514,7 +2506,7 @@ Tilemap:
   - serializedVersion: 1
     m_DirtyIndex: 0
   - serializedVersion: 1
-    m_DirtyIndex: 2
+    m_DirtyIndex: 0
 --- !u!114 &1172052452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4943,8 +4935,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Offset: {x: 0, y: 0, z: 0}
-  Passable: 0
-  AtmosPassable: 1
   closed: 1
 --- !u!1 &1816800298
 GameObject:
@@ -5062,8 +5052,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Offset: {x: 0, y: 0, z: 0}
-  Passable: 1
-  AtmosPassable: 1
 --- !u!61 &1853347607
 BoxCollider2D:
   m_ObjectHideFlags: 0
